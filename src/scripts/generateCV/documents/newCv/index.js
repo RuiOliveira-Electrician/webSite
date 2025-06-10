@@ -152,6 +152,7 @@ export const pdfTemplate = ({ currentLanguageCode, cvData, links, cvType }) => {
   return fs.readFileSync(template).toString()
     .replace("{{cssIcons}}", "<style>" + fs.readFileSync(cssIconsTemplate).toString() + "</style>")
     .replace("{{css}}", "<style>" + fs.readFileSync(cssTemplate).toString() + "</style>")
+    .replace("{{app_name}}", name)
     .replace("{{name}}", name)
     .replace("{{app_title}}", app_title)
     .replace("{{title}}", title)

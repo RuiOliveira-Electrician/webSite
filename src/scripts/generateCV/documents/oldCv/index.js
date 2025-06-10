@@ -144,6 +144,7 @@ module.exports = ({ currentLanguageCode, cvData }) => {
 
     .replace("{{name}}", name)
     .replace("{{app_title}}", app_title)
+    .replace("{{app_title}}", app_title)
     .replace("{{contactInfo}}", contactInfoHtml)
     .replace("{{title}}", title)
     .replace("{{profile}}", profileHtml)
