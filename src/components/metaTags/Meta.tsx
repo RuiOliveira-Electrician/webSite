@@ -3,13 +3,14 @@ import { Metadata } from "next";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
-  const t = await getTranslations({ locale, namespace: "meta" });
+
+  const tMeta = await getTranslations({ locale, namespace: "meta" });
+  const tHome = await getTranslations({ locale, namespace: "home" });
 
   const baseUrl = process.env.NEXT_PUBLIC_URL || "";
-  const pageTitle = t("app_title");
-  const pageDescription = t("app_description");
-  const keywords = t.raw("keywords") as string[] | undefined;
-
+  const pageTitle = tMeta("app_title");
+  const pageDescription = tMeta("app_description");
+  const keywords = tMeta.raw("keywords") as string[] | undefined;
   const canonical = `${baseUrl}/${locale}`;
   const mainImageUrl = `${baseUrl}/favicon/icon-android-chrome-512x512.png`;
 
@@ -26,16 +27,8 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     icons: {
       icon: [
-        {
-          url: "/favicon/icon-16x16.png",
-          type: "image/png",
-          sizes: "16x16",
-        },
-        {
-          url: "/favicon/icon-32x32.png",
-          type: "image/png",
-          sizes: "32x32",
-        },
+        { url: "/favicon/icon-16x16.png", type: "image/png", sizes: "16x16" },
+        { url: "/favicon/icon-32x32.png", type: "image/png", sizes: "32x32" },
         {
           url: "/favicon/icon-android-chrome-192x192.png",
           type: "image/png",
@@ -48,11 +41,7 @@ export async function generateMetadata(): Promise<Metadata> {
         },
       ],
       apple: [
-        {
-          url: "/favicon/apple-icon.png",
-          sizes: "180x180",
-          type: "image/png",
-        },
+        { url: "/favicon/apple-icon.png", sizes: "180x180", type: "image/png" },
       ],
       shortcut: "/favicon/icon-32x32.png",
     },
@@ -63,14 +52,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       locale,
       siteName: pageTitle,
-      images: [
-        {
-          url: mainImageUrl,
-          width: 512,
-          height: 512,
-          alt: pageTitle,
-        },
-      ],
+      images: [{ url: mainImageUrl, width: 512, height: 512, alt: pageTitle }],
     },
     twitter: {
       card: "summary_large_image",
