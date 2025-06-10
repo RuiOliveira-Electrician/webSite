@@ -16,8 +16,8 @@ const getTranslations = (locale) => {
     throw new Error(`Locale "${locale}" not supported`);
   }
 
-  const localeFilePath = path.join(__dirname, `../../assets/translations${locale}.json`);
-  const defaultLocaleFilePath = path.join(__dirname, `../../assets/translations${defaultLanguage}.json`);
+  const localeFilePath = path.join(__dirname, `../../assets/translations/${locale}.json`);
+  const defaultLocaleFilePath = path.join(__dirname, `../../assets/translations/${defaultLanguage}.json`);
 
   const localeJson = JSON.parse(fs.readFileSync(localeFilePath, 'utf8'));
   const defaultLocaleJson = locale === defaultLanguage ? {} : JSON.parse(fs.readFileSync(defaultLocaleFilePath, 'utf8'));
