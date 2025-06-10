@@ -1,7 +1,19 @@
 {
-  "app_title": "Rui Oliveira - Electrician  Industrial | Residential",
-  "app_description": "An industrial electrician with 5+ years experience looking for job opportunities.",
+  "meta": {
+    "app_title": "Industrial Electrician Services",
+    "app_description": "High-quality electrical installations and maintenance.",
+    "keywords": [
+      "industrial electrician",
+      "maintenance",
+      "automation",
+      "PLC",
+      "electrical systems",
+      "LV",
+      "HV"
+    ]
+  },
   "characteristics": {
+    "name": "Rui Oliveira",
     "sex": "Male",
     "dateOfBirth": "19/12/1995",
     "nationality": "Portuguese"

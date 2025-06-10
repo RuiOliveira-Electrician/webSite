@@ -1,6 +1,17 @@
 {
-  "app_title": "Rui Oliveira - Elektricien  Industrieel | Residencial",
-  "app_description": "Een industriële elektricien met meer dan 5 jaar ervaring op zoek naar vacatures.",
+  "meta": {
+    "app_title": "Industriële Elektricien Diensten",
+    "app_description": "Hoogwaardige elektrische installaties en onderhoud.",
+    "keywords": [
+      "industriële elektricien",
+      "onderhoud",
+      "automatisering",
+      "PLC",
+      "elektrische systemen",
+      "LV",
+      "HV"
+    ]
+  },
   "characteristics": {
     "sex": "Man",
     "nationality": "Portugees"

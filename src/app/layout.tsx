@@ -1,7 +1,8 @@
 import React from "react";
 import { getLocale, getMessages, setRequestLocale } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
 
-import RootLayout from "./RootLayout";
+import AppShell from "@/components/layout/AppShell";
 import NavigationBar from "@/components/layout/navigationBar/NavigationBar";
 import Footer from "@/components/layout/footer/Footer";
 
@@ -12,17 +13,31 @@ interface ILayoutProps {
   children: React.ReactNode;
 }
 
-export default async function Layout(props: ILayoutProps) {
+export { generateMetadata } from "@/components/metaTags/Meta";
+
+export default async function Layout({ children }: ILayoutProps) {
   const locale = await getLocale();
   setRequestLocale(locale);
   const messages = await getMessages();
+  const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
   return (
-    <RootLayout locale={locale} messages={messages}>
-      <div className="wideGrid">
-        <NavigationBar locale={locale} />
-        {props.children}
-        <Footer />
-      </div>
-    </RootLayout>
+    <html lang={locale}>
+      <body>
+        <NextIntlClientProvider
+          locale={locale}
+          messages={messages}
+          timeZone={timeZone}
+        >
+          <AppShell locale={locale}>
+            <div className="wideGrid">
+              <NavigationBar locale={locale} />
+              {children}
+              <Footer />
+            </div>
+          </AppShell>
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }

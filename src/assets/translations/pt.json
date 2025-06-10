@@ -1,6 +1,17 @@
 {
-  "app_title": "Rui Oliveira - Eletricista  Industrial | Residencial",
-  "app_description": "Eletricista industrial com mais de 5 anos de experiência em busca de oportunidades de emprego.",
+  "meta": {
+    "app_title": "Serviços de Eletricista Industrial",
+    "app_description": "Instalações e manutenções elétricas de alta qualidade.",
+    "keywords": [
+      "eletricista industrial",
+      "manutenção",
+      "automação",
+      "CLP",
+      "sistemas elétricos",
+      "LV",
+      "HV"
+    ]
+  },
   "characteristics": {
     "sex": "Masculino",
     "nationality": "Português"

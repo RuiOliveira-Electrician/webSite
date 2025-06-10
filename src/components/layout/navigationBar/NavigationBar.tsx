@@ -8,7 +8,7 @@ import Link from "next/link";
 import { usePathname, routing } from "@/i18n/routing";
 
 import Languages from "../Languages/Language";
-import { pageList, Page } from "@/resource/pages";
+import { pageList, Page } from "@/resource/pageList";
 import logoImg from "@/assets/images/logo/logo.svg";
 
 import "./NavigationBar.scss";

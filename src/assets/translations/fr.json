@@ -1,6 +1,17 @@
 {
-  "app_title": "Rui Oliveira - Electricien  Industriel | Residentiel",
-  "app_description": "Un électricien industriel avec plus de 5 ans d'expérience à la recherche d'opportunités d'emploi.",
+  "meta": {
+    "app_title": "Services d'électricien industriel",
+    "app_description": "Installations et maintenance électriques de haute qualité.",
+    "keywords": [
+      "électricien industriel",
+      "maintenance",
+      "automatisation",
+      "automate programmable",
+      "systèmes électriques",
+      "LV",
+      "HV"
+    ]
+  },
   "characteristics": {
     "sex": "Homme",
     "nationality": "Portugais"

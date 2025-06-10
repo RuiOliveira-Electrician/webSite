@@ -13,11 +13,12 @@ const cssTemplate = path.resolve(__dirname, "./cvCss.css");
 export const pdfTemplate = ({ currentLanguageCode, cvData, links, cvType }) => {
   const template = path.resolve(__dirname, "./cvTemplate.html");
 
-  const app_title = cvData.app_title;
+  const app_title = cvData.meta.app_title;
   const title = cvData.home.subTitle.first;
   const profile = cvData.about.description.cv;
   const languages = cvData.languages.description;
   const languagesKey = cvData.languages.key;
+  const name = cvData.characteristics.name;
   const characteristics = cvData.characteristics;
   const softSkills = cvData.skills.softSkills.description;
   const educations = cvData.educations.description;
@@ -151,6 +152,7 @@ export const pdfTemplate = ({ currentLanguageCode, cvData, links, cvType }) => {
   return fs.readFileSync(template).toString()
     .replace("{{cssIcons}}", "<style>" + fs.readFileSync(cssIconsTemplate).toString() + "</style>")
     .replace("{{css}}", "<style>" + fs.readFileSync(cssTemplate).toString() + "</style>")
+    .replace("{{name}}", name)
     .replace("{{app_title}}", app_title)
     .replace("{{title}}", title)
     .replace("{{profile}}", profileHtml)

@@ -1,73 +1,88 @@
-"use client";
+import { getLocale, getTranslations } from "next-intl/server";
+import { Metadata } from "next";
 
-import { NextSeo } from "next-seo";
-import { useTranslations } from "next-intl";
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
+  const t = await getTranslations({ locale, namespace: "meta" });
 
-interface IMetaProps {
-  locale?: string;
-}
-
-export const Meta = (props: IMetaProps) => {
-  const t = useTranslations("");
-
+  const baseUrl = process.env.NEXT_PUBLIC_URL || "";
   const pageTitle = t("app_title");
   const pageDescription = t("app_description");
-  const canonical = "";
-  const imageUrl =
-    process.env.NEXT_PUBLIC_URL + "/favicon/android-chrome-512x512.png";
+  const keywords = t.raw("keywords") as string[] | undefined;
 
-  return (
-    <>
-      {/* <NextSeo
-        title={pageTitle}
-        description={pageDescription}
-        canonical={canonical} // Add canonical URL if needed
-        openGraph={{
-          title: pageTitle,
-          description: pageDescription,
-          images: [
-            {
-              url: imageUrl,
-              width: 512,
-              height: 512,
-              alt: pageTitle,
-            },
-          ],
-          locale: props.locale,
-          site_name: pageTitle,
-          type: "website",
-        }}
-      /> */}
-    </>
-  );
-};
+  const canonical = `${baseUrl}/${locale}`;
+  const mainImageUrl = `${baseUrl}/favicon/icon-android-chrome-512x512.png`;
 
-//<Head>
-//{/* Example meta tags */}
-//<meta charSet="UTF-8" key="charset" />
-//<meta
-//  name="viewport"
-//  content="width=device-width,initial-scale=1"
-//  key="viewport"
-///>
-//<link
-//  rel="apple-touch-icon"
-//  /*   href={buildUrl("/apple-touch-icon.png")} */
-//  key="apple"
-///>
-//<link
-//  rel="icon"
-//  type="image/png"
-//  sizes="32x32"
-//  /*   href={buildUrl("/favicon-32x32.png")} */
-//  key="icon32"
-///>
-//<link
-//  rel="icon"
-//  type="image/png"
-//  sizes="16x16"
-//  /*  href={buildUrl("/favicon-16x16.png")} */
-//  key="icon16"
-///>
-//{/*   <link rel="icon" href={buildUrl("/favicon.ico")} key="favicon" /> */}
-//</Head>
+  return {
+    title: pageTitle,
+    description: pageDescription,
+    keywords: keywords?.length ? keywords : undefined,
+    alternates: {
+      canonical,
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+    icons: {
+      icon: [
+        {
+          url: "/favicon/icon-16x16.png",
+          type: "image/png",
+          sizes: "16x16",
+        },
+        {
+          url: "/favicon/icon-32x32.png",
+          type: "image/png",
+          sizes: "32x32",
+        },
+        {
+          url: "/favicon/icon-android-chrome-192x192.png",
+          type: "image/png",
+          sizes: "192x192",
+        },
+        {
+          url: "/favicon/icon-android-chrome-512x512.png",
+          type: "image/png",
+          sizes: "512x512",
+        },
+      ],
+      apple: [
+        {
+          url: "/favicon/apple-icon.png",
+          sizes: "180x180",
+          type: "image/png",
+        },
+      ],
+      shortcut: "/favicon/icon-32x32.png",
+    },
+    openGraph: {
+      title: pageTitle,
+      description: pageDescription,
+      url: canonical,
+      type: "website",
+      locale,
+      siteName: pageTitle,
+      images: [
+        {
+          url: mainImageUrl,
+          width: 512,
+          height: 512,
+          alt: pageTitle,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: pageTitle,
+      description: pageDescription,
+      images: [mainImageUrl],
+    },
+  };
+}
+
+export function generateViewport() {
+  return {
+    themeColor: "#ffffff",
+  };
+}

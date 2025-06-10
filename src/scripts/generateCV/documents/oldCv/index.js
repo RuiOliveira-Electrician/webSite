@@ -4,11 +4,12 @@ const path = require("path");
 module.exports = ({ currentLanguageCode, cvData }) => {
   const template = path.resolve(__dirname, "./cvTemplate.html")
 
-  const app_title = cvData.app_title;
+  const app_title = cvData.meta.app_title;
   const title = cvData.home.subTitle.first;
   const profile = cvData.about.description.cv;
   const languages = cvData.languages.description;
   const languagesKey = cvData.languages.key;
+  const name = cvData.characteristics.name;
   const characteristics = cvData.characteristics;
   const skills = cvData.skills;
   const educations = cvData.educations.description;
@@ -140,6 +141,8 @@ module.exports = ({ currentLanguageCode, cvData }) => {
     */
 
   return fs.readFileSync(template).toString()
+
+    .replace("{{name}}", name)
     .replace("{{app_title}}", app_title)
     .replace("{{contactInfo}}", contactInfoHtml)
     .replace("{{title}}", title)
