@@ -1,8 +1,7 @@
 "use client";
 
 import React from "react";
-import Head from "next/head";
-import { useTranslations } from "next-intl";
+import CvHead from "./CvHead"; // adjust path as needed
 
 import CvDownload from "./CvDownload";
 import About from "./About";
@@ -21,34 +20,9 @@ const gradient =
   "radial-gradient(circle, rgb(25, 58, 89, 0.5) 0%, rgb(0, 0, 0, 0.5) 100%)";
 
 export function Cv({ locale }: { locale: string }) {
-  const tHome = useTranslations("home");
-  const tMeta = useTranslations("meta");
-
-  const baseUrl = process.env.NEXT_PUBLIC_URL || "";
-  const canonical = `${baseUrl}/${locale}`;
-  const mainImageUrl = `${baseUrl}/favicon/icon-android-chrome-512x512.png`;
-  const jobTitle = tHome("subTitle.first");
-  const pageTitle = tMeta("app_title");
-  const pageDescription = tMeta("app_description");
-
   return (
     <>
-      <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Person",
-              name: pageTitle,
-              jobTitle,
-              description: pageDescription,
-              url: canonical,
-              image: mainImageUrl,
-            }),
-          }}
-        />
-      </Head>
+      <CvHead locale={locale} />
 
       <section className="have_footer have_NavigationBar cv">
         <CvDownload locale={locale} />
