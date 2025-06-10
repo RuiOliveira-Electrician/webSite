@@ -12,7 +12,7 @@ export default function getFormatDate(date: any, expressions: any) {
   const formattedEndDate = formatDate(date.endDate, expressions);
 
   return formattedStartDate === "0"
-    ? ""
+    ? `${formattedEndDate}`
     : `${formattedStartDate} - ${formattedEndDate}`;
 }
 
