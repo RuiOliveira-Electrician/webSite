@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import CvHead from "@/components/metaTags/CvHead"; 
+import CvHead from "@/components/metaTags/CvHead";
 
 import CvDownload from "./CvDownload";
 import About from "./About";

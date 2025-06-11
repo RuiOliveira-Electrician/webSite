@@ -19,6 +19,7 @@ export function Home() {
             width={500}
             height={500}
             alt="Rui Oliveira"
+            priority
           />
         </figure>
       </header>
