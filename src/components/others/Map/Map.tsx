@@ -18,7 +18,9 @@ interface IMapSectionProps {}
 export default function MapSection(props: IMapSectionProps) {
   const defaultZoom = 2;
   const defaultCenter = { lat: 49.1485207, lng: 2.9511712 };
+  const libraries = useMemo(() => ["places"], []);
   const mapRef = useRef<google.maps.Map | null>(null);
+  const [mapCenter, setMapCenter] = useState(defaultCenter);
   const [zoom, setZoom] = useState(defaultZoom);
   const [bounds, setBounds] = useState<[number, number, number, number] | null>(
     null
@@ -27,8 +29,6 @@ export default function MapSection(props: IMapSectionProps) {
     [key: string]: boolean;
   }>({});
   const [hoveredId, setHoveredId] = useState<string | null>(null);
-
-  const libraries = useMemo(() => ["places"], []);
   const [points, setPoints] = useState<Point[]>(pointsDataset as Point[]);
 
   const mapOptions = useMemo<google.maps.MapOptions>(
@@ -36,6 +36,8 @@ export default function MapSection(props: IMapSectionProps) {
       disableDefaultUI: true,
       clickableIcons: true,
       scrollwheel: true,
+      minZoom: 2, 
+      maxZoom: 10, 
     }),
     []
   );
@@ -75,7 +77,7 @@ export default function MapSection(props: IMapSectionProps) {
       20
     );
     mapRef.current?.setZoom(expansionZoom);
-    mapRef.current?.panTo({ lat, lng });
+    setMapCenter({ lat, lng });
   };
 
   const onhandleMouseOverCluster = (clusterId: string) => {
@@ -86,24 +88,32 @@ export default function MapSection(props: IMapSectionProps) {
     setHoveredId(null);
   };
 
-  const onClickMarker = (lat: number, lng: number, zoom: any) => () => {
-    mapRef.current?.setZoom(zoom);
-    mapRef.current?.panTo({ lat, lng });
-  };
+  const onClickMarker =
+    (lat: number, lng: number, suggestedZoom: number) => () => {
+      const map = mapRef.current;
+      if (!map) return;
+
+      const currentZoom = map.getZoom() ?? defaultZoom;
+      const targetZoom = Math.min(suggestedZoom + 2, 20);
+      map.setZoom(Math.max(currentZoom, targetZoom));
+
+      const bounds = map.getBounds();
+      const point = new google.maps.LatLng(lat, lng);
+
+      if (!bounds?.contains(point)) {
+        map.panTo(point);
+      }
+
+      setMapCenter({ lat, lng });
+    };
 
   const onHandleMouseOverMarker = (markerId: string) => {
-    setOpenInfoWindows((prevState) => ({
-      ...prevState,
-      [markerId]: true,
-    }));
+    setOpenInfoWindows((prevState) => ({ ...prevState, [markerId]: true }));
     setHoveredId(markerId);
   };
 
   const onHandleMouseOutMarker = (markerId: string) => {
-    setOpenInfoWindows((prevState) => ({
-      ...prevState,
-      [markerId]: false,
-    }));
+    setOpenInfoWindows((prevState) => ({ ...prevState, [markerId]: false }));
     setHoveredId(null);
   };
 
@@ -111,7 +121,6 @@ export default function MapSection(props: IMapSectionProps) {
   const maxScale = 0.15;
   const minZoom = 2;
   const maxZoom = 21;
-
   const scale =
     minScale + ((zoom - minZoom) / (maxZoom - minZoom)) * (maxScale - minScale);
 
@@ -122,7 +131,7 @@ export default function MapSection(props: IMapSectionProps) {
   return (
     <GoogleMap
       options={mapOptions}
-      center={defaultCenter}
+      center={mapCenter}
       zoom={zoom}
       mapContainerStyle={{
         width: "100%",
@@ -172,6 +181,7 @@ export default function MapSection(props: IMapSectionProps) {
             />
           );
         }
+
         const isHovered = hoveredId === cluster.properties.markersId;
         const customIcon = {
           path: cluster.geometry.marker,

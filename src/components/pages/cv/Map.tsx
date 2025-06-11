@@ -7,7 +7,6 @@ import "./Cv.scss";
 
 interface IMapProps {
   gradient: string;
-
 }
 
 export default function Map(props: IMapProps) {
