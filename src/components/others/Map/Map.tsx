@@ -36,8 +36,8 @@ export default function MapSection(props: IMapSectionProps) {
       disableDefaultUI: true,
       clickableIcons: true,
       scrollwheel: true,
-      minZoom: 2, 
-      maxZoom: 10, 
+      minZoom: 2,
+      maxZoom: 10,
     }),
     []
   );
@@ -213,7 +213,9 @@ export default function MapSection(props: IMapSectionProps) {
                 position={{ lat, lng }}
                 mapPaneName={OverlayView.OVERLAY_MOUSE_TARGET}
               >
-                <p className="map title">{cluster.properties.city}</p>
+                <div className="map">
+                  <p className="title">{cluster.properties.city}</p>
+                </div>
               </OverlayView>
             )}
           </Marker>

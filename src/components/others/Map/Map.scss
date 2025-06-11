@@ -1,30 +1,102 @@
 .map {
   .title {
-    width: 200px;
-    transform: translate(0.5rem, -1rem);
-    animation: showLettersMapsMarker 1s linear forwards;
-    color: #ffffff;
-    font-size: calc(var(--textSize) * 1.5em);
-    line-height: 1em;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+     background-color: rgba(0, 0, 0, 0.142);
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    font-size: calc(var(--textSize, 1) * 1.5em);
     font-weight: 600;
-    letter-spacing: normal;
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
+    white-space: nowrap;
+    text-align: center;
+
+    /* Animation */
+    opacity: 0;
+    transform: translateX(-10px);
+    animation: slideInText 0.6s ease-out forwards;
   }
 }
 
-@keyframes showLettersMapsMarker {
+.title {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: slideInText 1s ease forwards;
+   max-width: 150px;
+}
+
+.title.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+@keyframes slideInText {
   0% {
-    width: 70%;
     opacity: 0;
-    //background: rgba(0, 0, 0, 0);
+    transform: translateX(-20px);
+    color: #bbb;
+    width: 0px;
+  }
+  10% {
+    opacity: 0.1;
+    transform: translateX(-18px);
+    color: #ccc;
+    width: 15px;
+  }
+  20% {
+    opacity: 0.2;
+    transform: translateX(-16px);
+    color: #d9d9d9;
+    width: 30px;
+  }
+  30% {
+    opacity: 0.3;
+    transform: translateX(-14px);
+    color: #e6e6e6;
+    width: 45px;
+  }
+  40% {
+    opacity: 0.4;
+    transform: translateX(-12px);
+    color: #eeeeee;
+    width: 60px;
   }
   50% {
-    opacity: 0.1;
+    opacity: 0.5;
+    transform: translateX(-10px);
+    color: #f5f5f5;
+    width: 75px;
+  }
+  60% {
+    opacity: 0.6;
+    transform: translateX(-8px);
+    color: #fafafa;
+    width: 90px;
+  }
+  70% {
+    opacity: 0.7;
+    transform: translateX(-6px);
+    color: #fcfcfc;
+    width: 105px;
+  }
+  80% {
+    opacity: 0.8;
+    transform: translateX(-4px);
+    color: #fefefe;
+    width: 120px;
+  }
+  90% {
+    opacity: 0.9;
+    transform: translateX(-2px);
+    color: #fff;
+    width: 135px;
   }
   100% {
-    width: 100%;
-    transform: translate(1rem, -1rem);
     opacity: 1;
-    // background: rgba(0, 0, 0, 0.359);
+    transform: translateX(0);
+    color: #fff;
+    width: 150px;
+    max-width: 150px;
   }
 }

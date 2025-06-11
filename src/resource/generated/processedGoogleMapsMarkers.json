@@ -1686,7 +1686,7 @@
         "type": "Feature",
         "properties": {
             "markersId": 18,
-            "city": "Peneda-Gerês National Park",
+            "city": "Peneda-Gerês",
             "country": "Portugal"
         },
         "geometry": {
@@ -1720,7 +1720,7 @@
         "type": "Feature",
         "properties": {
             "markersId": 17,
-            "city": "Serra da Estrela Natural Park",
+            "city": "Serra da Estrela",
             "country": "Portugal"
         },
         "geometry": {
@@ -1737,7 +1737,7 @@
         "type": "Feature",
         "properties": {
             "markersId": 13,
-            "city": "Vesuvius National Park",
+            "city": "Vesuvius",
             "country": "Italy"
         },
         "geometry": {
@@ -1788,7 +1788,7 @@
         "type": "Feature",
         "properties": {
             "markersId": 11,
-            "city": "Aspromonte National Park",
+            "city": "Aspromonte",
             "country": "Italy"
         },
         "geometry": {
