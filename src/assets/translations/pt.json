@@ -107,6 +107,9 @@
     },
     "description": [
       {
+        "title": "IS-005 - Trabalhar com plataforma elevatória autopropulsada"
+      },
+      {
         "title": "VP LS + HS (NEN 3140 + 3840)"
       },
       {
@@ -190,6 +193,15 @@
       {
         "title": "Técnico de Serviço de Campo",
         "functionsPerformed": {
+          "0": "Comissionamento de sistemas elétricos industriais.",
+          "1": "Resolução de falhas em instalações BT e AT.",
+          "2": "Manutenção preventiva e corretiva com inspeções.",
+          "3": "Validação de esquemas elétricos conforme normas de segurança."
+        }
+      },
+      {
+        "title": "Técnico de Serviço de Campo",
+        "functionsPerformed": {
           "0": "Trabalho elétrico e mecânico realizado.",
           "1": "Solução de problemas e diagnóstico de questões técnicas.",
           "2": "Realização de inspeções de rotina e manutenção preventiva.",
@@ -243,7 +255,7 @@
     "description": [
       {
         "title": "Home Assistant",
-        "description": "Minha casa é controlada por um Raspberry Pi 4 e automatizada com Home Assistant. Com essa configuração, tenho a capacidade de controlar vários aspectos, como luzes, sensores e robôs, tanto internamente (sem conexão com a internet) quanto externamente (por meio do VPN \"Tailscale\" e IP mascarado pelo \"Duck DNS\")."
+        "description": "Esta configuração do Home Assistant é um sistema completo de gestão de energia e automação residencial, integrando um inversor solar Huawei, medidor de energia, bateria, caldeira e bomba de água de poço. O sistema monitora, controla e publica os dados dos principais sensores, automatizando o uso de energia para eficiência e segurança."
       },
       {
         "title": "Website",

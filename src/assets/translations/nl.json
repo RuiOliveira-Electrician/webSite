@@ -107,6 +107,9 @@
     },
     "description": [
       {
+        "title": "IS-005 - Werken met zelfrijdende hoogwerker"
+      },
+      {
         "title": "VP LS + HS (NEN 3140 + 3840)"
       },
       {
@@ -189,10 +192,19 @@
       {
         "title": "Veldservice Technicus",
         "functionsPerformed": {
-          "0": "Elektrisch en mechanisch werk uitgevoerd.",
-          "1": "Storingen oplossen en technische problemen diagnosticeren.",
-          "2": "Uitvoeren van routinematige inspecties en preventief onderhoud.",
-          "3": "Naleving van veiligheidsprotocollen en zorgen voor naleving van de bedrijfs- en industriestandaarden."
+          "0": "Installatie en inbedrijfstelling van industriële elektrische systemen.",
+          "1": "Foutanalyse en storingsoplossing van LS- en HS-installaties.",
+          "2": "Preventief en correctief onderhoud met inspecties en testen.",
+          "3": "Inspectie, ontwerp en validatie van elektrische schema’s volgens veiligheids- en regelgeving."
+        }
+      },
+      {
+        "title": "Veldservice Technicus",
+        "functionsPerformed": {
+          "0": "Inbedrijfstelling van industriële elektrische systemen.",
+          "1": "Storingsoplossing van LS- en HS-installaties.",
+          "2": "Preventief en correctief onderhoud met inspecties.",
+          "3": "Validatie van elektrische schema’s volgens veiligheid en regelgeving."
         }
       },
       {
@@ -243,7 +255,7 @@
       {
         "title": "Home Assistant",
         "website": "https://github.com/rui-oliveira-tech/homeAssistant/",
-        "description": "Mijn huis wordt aangedreven door een Raspberry Pi 4 en is geautomatiseerd met behulp van Home Assistant. Met deze opstelling heb ik de mogelijkheid om verschillende aspecten te controleren, zoals verlichting, sensoren en robots, zowel intern (zonder internetverbinding) als extern (via VPN \"Tailscale\" en IP gemaskeerd door \"Duck DNS\")."
+        "description": "Deze Home Assistant-configuratie is een uitgebreid energiebeheer- en huisautomatiseringssysteem dat een Huawei-zonne-omvormer, energiemeter, batterij, boiler en putwaterpomp integreert. Het systeem bewaakt, regelt en publiceert belangrijke sensorgegevens terwijl het energieverbruik wordt geautomatiseerd voor efficiëntie en veiligheid."
       },
       {
         "title": "Website",

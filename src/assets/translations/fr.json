@@ -107,6 +107,9 @@
     },
     "description": [
       {
+        "title": "IS-005 - Travailler avec une nacelle automotrice"
+      },
+      {
         "title": "VP LS + HS (NEN 3140 + 3840)"
       },
       {
@@ -190,6 +193,15 @@
       {
         "title": "Technicien de Service sur le Terrain",
         "functionsPerformed": {
+          "0": "Mise en service de systèmes électriques industriels.",
+          "1": "Dépannage des installations BT et HT.",
+          "2": "Maintenance préventive et corrective avec inspections.",
+          "3": "Validation des schémas électriques selon sécurité et réglementation."
+        }
+      },
+      {
+        "title": "Technicien de Service sur le Terrain",
+        "functionsPerformed": {
           "0": "Travail électrique et mécanique effectué.",
           "1": "Dépannage et diagnostic des problèmes techniques.",
           "2": "Effectuer des inspections de routine et de la maintenance préventive.",
@@ -243,7 +255,7 @@
     "description": [
       {
         "title": "Home Assistant",
-        "description": "Ma maison est alimentée par un Raspberry Pi 4 et est automatisée à l'aide de Home Assistant. Avec cette configuration, j'ai la possibilité de contrôler divers aspects tels que les lumières, les capteurs et les robots, à la fois en interne (sans connexion Internet) et en externe (via VPN \"Tailscale\" et IP masqué par \"Duck DNS\")."
+        "description": "Cette configuration Home Assistant est un système complet de gestion d'énergie et d'automatisation domestique intégrant un onduleur solaire Huawei, un compteur d'énergie, une batterie, une chaudière et une pompe à eau de puits. Le système surveille, contrôle et publie les données des principaux capteurs tout en automatisant l'utilisation de l'énergie pour plus d'efficacité et de sécurité."
       },
       {
         "title": "Site web",

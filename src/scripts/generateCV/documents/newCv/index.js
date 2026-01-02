@@ -34,7 +34,7 @@ export const pdfTemplate = ({ currentLanguageCode, cvData, links, cvType }) => {
     <div class="yui-gf pageBrake">
       <div class="line-with-text"><h2 class="icon-flow-tree">&nbsp;&nbsp;${cvData.skills.softSkills.underlayTitle}</h2></div>
       ${softSkills?.map((skill, i) => skill.type.includes(cvType) ? `
-        <div class="skills${i === 0 ? ' frist' : ''}">
+        <div class="skills${i === 0 ? ' firstCv' : ''}">
           <h4 class="icon-plus blue-icon">&nbsp;&nbsp;${skill.title}</h4>
         </div>
       `: '').join('')}
@@ -45,7 +45,7 @@ export const pdfTemplate = ({ currentLanguageCode, cvData, links, cvType }) => {
   <div class="yui-gf pageBrake">
     <div class="line-with-text"><h2 class="icon-briefcase">&nbsp;&nbsp;${cvData.experiences.underlayTitle}</h2></div>
     ${cvData.experiences.description?.map((experience, i) => experience.type.includes(cvType) ? `
-      <div class="experiences${i === 0 ? ' frist' : ''}">
+      <div class="experiences${i === 0 ? ' firstCv' : ''}">
         <h3 class="experience title">${experience.title}</h3>
         <a class="experience link noBrake" target="_blank" rel="noreferrer" href="${experience.website}">   
           <h4 class="noBrake company">${experience.company}</h4>
@@ -69,7 +69,7 @@ export const pdfTemplate = ({ currentLanguageCode, cvData, links, cvType }) => {
     <div class="yui-gf pageBrake">
       <div class="line-with-text"><h2 class="icon-graduation-cap">&nbsp;&nbsp;${cvData.educations.underlayTitle}</h2></div>
       ${educations?.map((education, i) => education.type.includes(cvType) ? `
-        <div class="educations${i === 0 ? ' frist' : ''}">
+        <div class="educations${i === 0 ? ' firstCv' : ''}">
           <h4 class="experience">${education.title}</h4>
           <a class="experience link noBrake" target="_blank" rel="noreferrer" href="${education.website}">
             <h5 class="noBrake company">${education.company}</h5> <h5 class="noBrake company"> ${expressions.prepositions.in} ${education.location}</h5>
@@ -82,7 +82,7 @@ export const pdfTemplate = ({ currentLanguageCode, cvData, links, cvType }) => {
   <div class="yui-gf pageBrake">
     <div class="line-with-text"><h2 class="icon-certificate-outline">&nbsp;&nbsp;${cvData.certifications.underlayTitle}</h2></div>
     ${certifications?.map((certification, i) => certification.type.includes(cvType) ? `
-      <div class="certifications${i === 0 ? ' frist' : ''}">
+      <div class="certifications${i === 0 ? ' firstCv' : ''}">
         <h4 class="experience">${certification.title}</h4>
         <a class="experience link noBrake" target="_blank" rel="noreferrer" href="${certification.website}">
           <h5 class="noBrake company">${certification.company}</h5> <h5 class="noBrake company"> ${expressions.prepositions.in} ${certification.location}</h5>
@@ -109,19 +109,34 @@ export const pdfTemplate = ({ currentLanguageCode, cvData, links, cvType }) => {
 `;
 
   const projectHtml = `
-    <div class="yui-gf pageBrake">
-      <div class="line-with-text"><h2 class="icon-search">&nbsp;&nbsp;${cvData.projects.underlayTitle}</h2></div>
-      ${projects?.map((project, i) => project.type.includes(cvType) ? `
-        <div class="projects${i === 0 ? ' frist' : ''}">
-          <a class="experience link" target="_blank" rel="noreferrer" href="${project.website}">
-            <h3 class="experience title">${project.title}</h3>
-          </a>
-          <h4 class="first-intervalDate intervalDate date">${getFormatDate(project, expressions)}</h4>
-          <p class="description">${project.description}</p>
-        </div>
-      `: '').join('')}
-    </div>
-  `;
+<div class="yui-gf pageBrake">
+  <div class="line-with-text">
+    <h2 class="icon-search">&nbsp;&nbsp;${cvData.projects.underlayTitle}</h2>
+  </div>
+  ${projects?.map((project, i) => {
+    if (!project.type.includes(cvType)) return '';
+
+    const rawLink = project.website
+      ? project.website
+      : project.gitRepository
+        ? links.github.link + project.gitRepository
+        : '#';
+
+    const projectLink =
+      rawLink !== '#' && !rawLink.endsWith('/') ? rawLink + '/' : rawLink;
+
+    return `
+      <div class="projects${i === 0 ? ' firstCv' : ''}">
+        <a class="experience link" target="_blank" rel="noreferrer" href="${projectLink}">
+          <h3 class="experience title">${project.title}</h3>
+        </a>
+        <h4 class="first-intervalDate intervalDate date">${getFormatDate(project, expressions)}</h4>
+        <p class="description">${project.description}</p>
+      </div>
+    `;
+  }).join('')}
+</div>
+`;
 
 
   const proficiencyMap = {
