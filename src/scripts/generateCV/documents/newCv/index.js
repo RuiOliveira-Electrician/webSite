@@ -100,7 +100,7 @@ export const pdfTemplate = ({ currentLanguageCode, cvData, links, cvType }) => {
   ${programmingLanguages?.map((programmingLanguage, i) => programmingLanguage.type.includes(cvType) ? `
     <a href="${programmingLanguage.website}" target="_blank" class="svg-link${i === 0 ? ' first' : ''}">
       <div class="svg-container">
-        ${fs.readFileSync(path.resolve(__dirname, `../../../../images/programming_languages/${programmingLanguage.img}.svg`), 'utf8')}  
+        ${fs.readFileSync(path.resolve(__dirname, `../../../../assets/images/programming_languages/${programmingLanguage.img}.svg`), 'utf8')}  
       </div>     
     </a>   
     ` : '').join('')} 
