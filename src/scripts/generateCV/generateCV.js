@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import deepMerge from '../../utils/deepMerge.js';
 import { pdfTemplate, headerTemplate, footerTemplate } from './documents/newCv/index.js';
-import { defaultLanguage, supportedLngs } from '../../i18n/langs.js';
+import { defaultLanguage, supportedTranledLngs } from '../../i18n/langs.js';
 import { links } from '../../resource/links.js';
 import { fileURLToPath } from 'url';
 
@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const getTranslations = (locale) => {
-  if (!supportedLngs.includes(locale)) {
+  if (!supportedTranledLngs.includes(locale)) {
     throw new Error(`Locale "${locale}" not supported`);
   }
 
@@ -69,7 +69,7 @@ const generateCV = async () => {
   fs.mkdirSync(outputDirectory, { recursive: true });
 
   const browser = await puppeteer.launch();
-  const supportedLngsKeys = Object.fromEntries(supportedLngs.map(lang => {
+  const supportedTranledLngsKeys = Object.fromEntries(supportedTranledLngs.map(lang => {
     try {
       return [lang, getTranslations(lang).messages];
     } catch (err) {
@@ -79,8 +79,8 @@ const generateCV = async () => {
   }));
 
   try {
-    await Promise.all(supportedLngs.map(async (lang) => {
-      const translationKeys = supportedLngsKeys[lang];
+    await Promise.all(supportedTranledLngs.map(async (lang) => {
+      const translationKeys = supportedTranledLngsKeys[lang];
       if (translationKeys) {
         await generateHTML(lang, translationKeys, outputDirectoryTemp);
         await generatePDF(browser, lang, translationKeys, outputDirectory);

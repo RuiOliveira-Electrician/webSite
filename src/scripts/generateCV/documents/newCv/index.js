@@ -20,7 +20,7 @@ export const pdfTemplate = ({ currentLanguageCode, cvData, links, cvType }) => {
   const languagesKey = cvData.languages.key;
   const name = cvData.characteristics.name;
   const characteristics = cvData.characteristics;
-  const softSkills = cvData.skills.softSkills.description;
+  const softSkills = cvData.softSkills.description;
   const educations = cvData.educations.description;
   const certifications = cvData.certifications.description;
   const experiences = cvData.experiences.description;
@@ -32,7 +32,7 @@ export const pdfTemplate = ({ currentLanguageCode, cvData, links, cvType }) => {
 
   const skillsHtml = `
     <div class="yui-gf pageBrake">
-      <div class="line-with-text"><h2 class="icon-flow-tree">&nbsp;&nbsp;${cvData.skills.softSkills.underlayTitle}</h2></div>
+      <div class="line-with-text"><h2 class="icon-flow-tree">&nbsp;&nbsp;${cvData.softSkills.underlayTitle}</h2></div>
       ${softSkills?.map((skill, i) => skill.type.includes(cvType) ? `
         <div class="skills${i === 0 ? ' firstCv' : ''}">
           <h4 class="icon-plus blue-icon">&nbsp;&nbsp;${skill.title}</h4>

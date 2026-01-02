@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "app_title": "Services d'électricien industriel",
+    "app_description": "Installations et maintenance électriques de haute qualité.",
+    "keywords": [
+      "électricien industriel",
+      "maintenance",
+      "automatisation",
+      "automate programmable",
+      "systèmes électriques",
+      "LV",
+      "HV"
+    ]
+  },
+  "characteristics": {
+    "sex": "Homme",
+    "nationality": "Portugais"
+  },
+  "navigationBar": {
+    "homepage": "Home",
+    "cv": "Curriculum Vitae",
+    "portfolio": "Portefeuille"
+  },
+  "footer": {
+    "mailButton": "Contactez-moi"
+  },
+  "home": {
+    "subTitle": {
+      "first": "Electricien Industriel",
+      "second": "Electricien Résidentiel",
+      "third": "Concepteur électrique"
+    },
+    "cvButton": "Télécharger Cv"
+  },
+  "about": {
+    "overlayTitle": "Qui je suis",
+    "underlayTitle": "Sur moi",
+    "description": {
+      "cv": "En tant que professionnel de l'électricité, j'ai développé une gamme diversifiée de compétences et d'expertise qui feraient de moi un ajout précieux à n'importe quelle équipe. Avec une passion pour le génie électrique et un engagement à rester à jour avec les dernières technologies, je suis confiant dans ma capacité à relever n'importe quel défi.",
+      "salutation": "Je m'appelle Rui. Je suis électricien industriel.",
+      "workingSituation": "Actuellement, je travaille chez\n",
+      "body": {
+        "0": "J'ai d'excellentes connaissances en électricité, pneumatique, hydraulique. Mais également dans l'interprétation des systèmes, dans l'informatique depuis la perpective de l'utilisateur, comme dans l'usage d'internet.",
+        "1": "Mes points forts sont l'électrification des panneaux et des structures électriques, la maintenance et la réparation industrielles.",
+        "2": "J'ai également de l'expérience en automatisation industrielle et en électromécanique.",
+        "3": "J'ai un bon esprit de travail en équipe, de coopération, et un goût pour la connaissance et l'apprentissage",
+        "4": "De préfé  rence, je souhaite travailler comme électricien industriel mais je n'exclue pas l'opportunité d'exercer d'autres postes à responsabilités dans différents domaines."
+      },
+      "complimentaryClose": "Contactez-moi."
+    }
+  },
+  "softSkills": {
+    "underlayTitle": "Compétences Interpersonnelles",
+    "description": []
+  },
+  "hardSkills": {
+    "underlayTitle": "Compétences Techniques",
+    "description": []
+  },
+  "certifications": {
+    "overlayTitle": "Quelles sont mes accréditations?",
+    "underlayTitle": "Certification",
+    "key": {
+      "changeDiplomas": "Cliquez pour basculer entre Certifications, Diplômes en double et expirés."
+    },
+    "description": []
+  },
+  "educations": {
+    "overlayTitle": "Ce que j'ai appris",
+    "underlayTitle": "Éducation",
+    "key": {
+      "changeDiplomas": "Cliquez pour basculer entre Diplômes Valides, Duplicatas et Expirés."
+    },
+    "description": []
+  },
+  "languages": {
+    "overlayTitle": "Les langues que je parle",
+    "underlayTitle": "Langues",
+    "key": {
+      "language": "LANGUES",
+      "understanding": "COMPRENDRE",
+      "speaking": "PARLER",
+      "writing": "ECRIRE",
+      "listening": "Écouter",
+      "reading": "Lire",
+      "interaction": "Interaction",
+      "production": "Production",
+      "levels": "Niveau : A1/2: Débutant - B1/2: Intermédiaire - C1/2: Confirmé",
+      "framework": "Cadre européen commun de référence pour les langues"
+    },
+    "description": []
+  },
+  "programmingLanguages": {
+    "overlayTitle": "Ce que je programme",
+    "underlayTitle": "Codes de programmation",
+    "description": []
+  },
+  "experiences": {
+    "overlayTitle": "Ce que j'ai fait",
+    "underlayTitle": "Expérience",
+    "description": []
+  },
+  "projects": {
+    "overlayTitle": "Ce que j'ai développé",
+    "underlayTitle": "Projets",
+    "description": []
+  },
+  "other": {
+    "overlayTitle": "Les autres choses que j'ai fait",
+    "underlayTitle": "Autres choses",
+    "description": []
+  },
+  "googleMapsMarkers": {
+    "overlayTitle": "Où j'ai été",
+    "underlayTitle": "Points sur Google Maps",
+    "description": []
+  },
+  "vcard": {
+    "redirectMessage": "Vous serez redirigé sous peu.",
+    "redirectCountdownTitle": "Redirection dans",
+    "redirectCountdownUnit": "secondes",
+    "downloadPrompt": "Télécharger la Vcard",
+    "error": "Erreur",
+    "errorMessage": "Veuillez réessayer plus tard."
+  },
+  "expressions": {
+    "globals": {
+      "sex": "Sexe",
+      "dateOfBirth": "Date de naissance",
+      "nationality": "Nationalité",
+      "page": "Page"
+    },
+    "prepositions": {
+      "in": "à"
+    },
+    "offerType": {
+      "Full-time": "Temps plein",
+      "Internship": "Stage",
+      "permanent": "Permanent",
+      "valid": "Valide jusqu'au",
+      "expired": "Expiré le",
+      "validDiploma": "Diplôme Valide",
+      "expiredDiploma": "Diplôme Expiré",
+      "duplicateDiploma": "Diplôme Duplicata"
+    },
+    "places": {
+      "antwerp": "Anvers",
+      "brech": "Brecht"
+    },
+    "countries": {
+      "NL": "Pays-Bas",
+      "BE": "Belgique",
+      "PT": "Portugal",
+      "D": "Allemagne"
+    },
+    "languages": {
+      "pt": "Portuguais",
+      "fr": "Français",
+      "en": "Anglais",
+      "es": "Espagnol",
+      "nl": "Holandais"
+    },
+    "languagesLevels": {
+      "native": "Natif",
+      "professional": "Professionnel",
+      "conversational": "Conversationnel"
+    },
+    "months": {
+      "present": "Présent",
+      "1": "Janv",
+      "2": "Févr",
+      "3": "Mars",
+      "4": "Avril",
+      "5": "Mai",
+      "6": "Juin",
+      "7": "Juil",
+      "8": "Août",
+      "9": "Sept",
+      "10": "Oct",
+      "11": "Nov",
+      "12": "Déc"
+    }
+  }
+}

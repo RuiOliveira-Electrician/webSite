@@ -1,0 +1,39 @@
+{
+  "description": [
+    {
+      "id": 2,
+      "title": "Off We Go – IB&C WEEKS",
+      "description": {
+        "en": "Scholar Exchange experience.",
+        "fr": "Expérience d'échange académique.",
+        "pt": "Experiência de intercâmbio acadêmico",
+        "nl": "Ervaring met Scholar Exchange."
+      },
+      "startDate": "2014-05-17",
+      "endDate": "2014-05-25",
+      "type": [
+        "cv1"
+      ]
+    },
+    {
+      "id": 1,
+      "title": {
+        "en": "Europe tour",
+        "fr": "Voyage en Europe",
+        "pt": "Viagem pela Europa",
+        "nl": "Europa tour"
+      },
+      "description": {
+        "en": "Countries I visited.",
+        "fr": "Les pays que j'ai visités.",
+        "pt": "Países que visitei.",
+        "nl": "Landen die ik heb bezocht."
+      },
+      "startDate": "2021-02-07",
+      "endDate": "Present",
+      "type": [
+        "cv1"
+      ]
+    }
+  ]
+}

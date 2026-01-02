@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "app_title": "Industrial Electrician Services",
+    "app_description": "High-quality electrical installations and maintenance.",
+    "keywords": [
+      "industrial electrician",
+      "maintenance",
+      "automation",
+      "PLC",
+      "electrical systems",
+      "LV",
+      "HV"
+    ]
+  },
+  "characteristics": {
+    "name": "Rui Oliveira",
+    "sex": "Male",
+    "dateOfBirth": "19/12/1995",
+    "nationality": "Portuguese"
+  },
+  "navigationBar": {
+    "homepage": "Home",
+    "cv": "Curriculum Vitae",
+    "portfolio": "Portfolio"
+  },
+  "footer": {
+    "mailButton": "Hire Me"
+  },
+  "home": {
+    "title": "Rui Oliveira",
+    "subTitle": {
+      "first": "Industrial Electrician",
+      "second": "Residential Electrician",
+      "third": "Schematic Projecting"
+    },
+    "cvButton": "Download Cv"
+  },
+  "about": {
+    "img": "about",
+    "overlayTitle": "Who I am",
+    "underlayTitle": "About",
+    "description": {
+      "cv": "As an electrical professional, I have developed a diverse range of skills and expertise that would make me a valuable addition to any team. With a passion for electrical engineering and a commitment to staying up-to-date with the latest technologies, I am confident in my ability to tackle any challenge.",
+      "salutation": "I'm Rui. I'm a Industrial Electrician.",
+      "workingSituation": "I am currently working at the\n",
+      "body": {
+        "0": "I have excellent knowledge of Electricity, Pneumatics, Hydraulics, Interpretation of schematics, Informatics in the user's perspective, as well as in the use of internet.",
+        "1": "My strengths are Electrification of electrical boards and structures, Industrial maintenance and repair.",
+        "2": "I also have experience in industrial automation and electromechanical.",
+        "3": "I have good team work spirit, cooperative and with a taste for knowledge and learning.",
+        "4": "I have preference in working as an industrial electrician, but I do not exclude the possibility of performing another position in different areas."
+      },
+      "complimentaryClose": "Looking forward to hearing from you."
+    }
+  },
+  "softSkills": {
+    "underlayTitle": "Soft Skills",
+    "description": []
+  },
+  "hardSkills": {
+    "underlayTitle": "Hard Skills",
+    "description": []
+  },
+  "certifications": {
+    "img": "certification",
+    "overlayTitle": "What are my accreditations?",
+    "underlayTitle": "Certification",
+    "key": {
+      "changeDiplomas": "Click to switch between Valid, certification, and certification Diplomas."
+    },
+    "description": []
+  },
+  "educations": {
+    "img": "education",
+    "overlayTitle": "What I've learned",
+    "underlayTitle": "Education",
+    "description": []
+  },
+  "languages": {
+    "img": "languages",
+    "overlayTitle": "What I speak",
+    "underlayTitle": "Languages",
+    "key": {
+      "language": "LANGUAGE",
+      "understanding": "UNDERSTANDING",
+      "speaking": "SPEAKING",
+      "writing": "WRITING",
+      "listening": "Listening",
+      "reading": "Reading",
+      "interaction": "Interaction",
+      "production": "Production",
+      "levels": "Levels: A1/2: Basic - B1/2: Independent - C1/2 Proficient",
+      "framework": "Common European Framework of Reference for Languages"
+    },
+    "description": []
+  },
+  "programmingLanguages": {
+    "img": "programmingLanguages",
+    "overlayTitle": "What I program",
+    "underlayTitle": "Programming Languages",
+    "description": []
+  },
+  "experiences": {
+    "img": "experience",
+    "overlayTitle": "What I've done",
+    "underlayTitle": "Experience",
+    "description": []
+  },
+  "projects": {
+    "img": "projects",
+    "overlayTitle": "What I've created",
+    "underlayTitle": "Projects",
+    "description": []
+  },
+  "other": {
+    "img": "other",
+    "overlayTitle": "Other stuff I've done",
+    "underlayTitle": "Other things",
+    "description": []
+  },
+  "googleMapsMarkers": {
+    "img": "googleMapsMarkers",
+    "overlayTitle": "Where I've  been",
+    "underlayTitle": "Google Maps Markers",
+    "description": []
+  },
+  "vcard": {
+    "redirectMessage": "You will be redirected shortly.",
+    "redirectCountdownTitle": "Redirecting in",
+    "redirectCountdownUnit": "seconds",
+    "downloadPrompt": "Download Vcard",
+    "error": "Error",
+    "errorMessage": "Please try again later."
+  },
+  "expressions": {
+    "globals": {
+      "sex": "Sex",
+      "dateOfBirth": "Date of birth",
+      "nationality": "Nationality",
+      "page": "Page"
+    },
+    "prepositions": {
+      "in": "in"
+    },
+    "offerTypes": {
+      "Full-time": "Full-time",
+      "Internship": "Internship",
+      "permanent": "Permanent",
+      "valid": "Valid until",
+      "expired": "Expired at",
+      "validDiplom": "Valid Diploma",
+      "expiredDiplom": "Expired Diploma",
+      "duplicateDiplom": "Duplicate Diploma"
+    },
+    "places": {
+      "antwerp": "Antwerpen",
+      "brech": "Brecht"
+    },
+    "countries": {
+      "NL": "Netherlands",
+      "BE": "Belgium",
+      "PT": "Portugal",
+      "D": "Germany"
+    },
+    "languages": {
+      "pt": "Portuguese",
+      "fr": "French",
+      "en": "English",
+      "es": "Spanish",
+      "nl": "Dutch"
+    },
+    "languagesLevels": {
+      "native": "Native",
+      "professional": "Professional",
+      "conversational": "Conversational"
+    },
+    "months": {
+      "present": "Present",
+      "1": "Jan",
+      "2": "Feb",
+      "3": "Mar",
+      "4": "Apr",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "Aug",
+      "9": "Sept",
+      "10": "Oct",
+      "11": "Nov",
+      "12": "Dec"
+    }
+  }
+}

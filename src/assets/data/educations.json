@@ -1,0 +1,46 @@
+{
+    "description": [
+        {
+            "title": {
+                "en": "Electronic, automation and maintenance",
+                "fr": "Diplôme en Électronique d'automatisation et de contrôle",
+                "pt": "Curso de Eletrónica Automação e Comando",
+                "nl": "Elektronisch, automatisering en onderhoud"
+            },
+            "companyTitle": "",
+            "company": "CFPIC",
+            "location": "São João da Madeira, Portugal",
+            "website": "http://www.cfpic.pt/",
+            "expirationDate": "Permanent",
+            "startDate": "2012",
+            "endDate": "2015-01-16",
+            "type": [
+                "valid",
+                "cv1"
+            ]
+        },
+        {
+            "title": {
+                "en": "High School, Course of Sciences and Technologies",
+                "fr": "Equivalent du Bac en science et technologies",
+                "pt": "Curso de Ciências e Tecnologias",
+                "nl": "Middelbare school, cursus wetenschappen en technologieën"
+            },
+            "companyTitle": {
+                "en": "High School of",
+                "fr": "Lycée de",
+                "pt": "Liceu de",
+                "nl": "Middelbare school van"
+            },
+            "company": "Santa Maria da Feira",
+            "location": "Santa Maria da Feira, Portugal",
+            "website": "https://ae-smfeira.pt/",
+            "expirationDate": "Permanent",
+            "startDate": "2010",
+            "endDate": "2012",
+            "type": [
+                "duplicate"
+            ]
+        }
+    ]
+}

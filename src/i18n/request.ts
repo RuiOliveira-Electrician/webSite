@@ -1,35 +1,29 @@
 import { getRequestConfig } from 'next-intl/server';
 import { routing } from "./routing";
-import deepMerge from '../utils/deepMerge';
+import deepMerge from "@/utils/deepMerge";
+
+async function loadLocaleJson(locale: string) {
+  try {
+    return (await import(`../resource/generated/translations/${locale}.json`)).default;
+  } catch {
+    return null;
+  }
+}
 
 export default getRequestConfig(async ({ requestLocale }) => {
+  const requestedLocale = await requestLocale;
+  const locale = (!requestedLocale || !routing.locales.includes(requestedLocale as any))
+    ? routing.defaultLocale
+    : requestedLocale;
 
-  let locale = await requestLocale;
+  const defaultJson = await loadLocaleJson(routing.defaultLocale);
+  const localeJson = locale === routing.defaultLocale
+    ? defaultJson
+    : (await loadLocaleJson(locale)) ?? defaultJson;
 
+  const messages = locale === routing.defaultLocale
+    ? defaultJson
+    : deepMerge(structuredClone(defaultJson), localeJson);
 
-  if (!locale || !routing.locales.includes(locale as any)) {
-    locale = routing.defaultLocale;
-  }
-
-  let messages;
-
-  try {
-    const localeJson = (await import(`../assets/translations/${locale}.json`)).default;
-
-    if (locale === routing.defaultLocale) {
-      messages = localeJson;
-    } else {
-      const defaultLocaleJson = (await import(`../assets/translations/${routing.defaultLocale}.json`)).default;
-      messages = deepMerge(structuredClone(defaultLocaleJson), localeJson);
-    }
-  } catch (error) {
-    console.error(`Error loading translations for locale ${locale}:`, error);
-    const defaultLocaleJson = (await import(`../assets/translations/${routing.defaultLocale}.json`)).default;
-    messages = defaultLocaleJson;
-  }
-
-  return {
-    locale, 
-    messages
-  };
+  return { locale, messages };
 });

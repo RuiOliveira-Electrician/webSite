@@ -1,0 +1,72 @@
+{
+  "description": [
+    {
+      "title": {
+        "en": "Troubleshooting and problem-solving",
+        "fr": "Dépannage et résolution de problèmes",
+        "pt": "Solução de problemas",
+        "nl": "Probleemoplossing en troubleshooting"
+      },
+      "description": {
+        "en": "Strong analytical skills to quickly identify issues with electrical systems and develop effective solutions to resolve them.",
+        "fr": "Solides compétences analytiques pour identifier rapidement les problèmes des systèmes électriques et développer des solutions efficaces pour les résoudre.",
+        "pt": "Fortes habilidades analíticas para identificar rapidamente problemas em sistemas elétricos e desenvolver soluções eficazes para resolvê-los.",
+        "nl": "Sterke analytische vaardigheden om snel problemen in elektrische systemen te identificeren en effectieve oplossingen te ontwikkelen om deze op te lossen."
+      },
+      "type": [
+        "cv1"
+      ]
+    },
+    {
+      "title": {
+        "en": "Communication and collaboration",
+        "fr": "Communication et collaboration",
+        "pt": "Comunicação e colaboração",
+        "nl": "Communicatie en samenwerking"
+      },
+      "description": {
+        "en": "Excellent communication and collaboration skills, enabling successful outcomes through teamwork.",
+        "fr": "Excellentes compétences en communication et en collaboration, permettant d'obtenir des résultats réussis grâce au travail d'équipe.",
+        "pt": "Excelentes habilidades de comunicação e colaboração, permitindo resultados bem-sucedidos através do trabalho em equipe.",
+        "nl": "Uitstekende communicatie- en samenwerkingsvaardigheden, waardoor succesvolle resultaten worden bereikt via teamwork."
+      },
+      "type": [
+        "cv1"
+      ]
+    },
+    {
+      "title": {
+        "en": "Critical Thinking",
+        "fr": "Pensée Critique",
+        "pt": "Pensamento Crítico",
+        "nl": "Kritisch Denken"
+      },
+      "description": {
+        "en": "Analyzing facts to make informed decisions.",
+        "fr": "Analyser les faits pour prendre des décisions éclairées.",
+        "pt": "Analisando fatos para tomar decisões informadas.",
+        "nl": "Feiten analyseren om weloverwogen beslissingen te nemen."
+      },
+      "type": [
+        "cv1"
+      ]
+    },
+    {
+      "title": {
+        "en": "Work Ethic",
+        "fr": "Éthique de Travail",
+        "pt": "Ética de Trabalho",
+        "nl": "Werkethiek"
+      },
+      "description": {
+        "en": "Demonstrating reliability, diligence, and commitment to quality.",
+        "fr": "Démontrer fiabilité, diligence et engagement envers la qualité.",
+        "pt": "Demonstrando confiabilidade, diligência e compromisso com a qualidade.",
+        "nl": "Betrouwbaarheid, ijver en toewijding aan kwaliteit aantonen."
+      },
+      "type": [
+        "cv1"
+      ]
+    }
+  ]
+}

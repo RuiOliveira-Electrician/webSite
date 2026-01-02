@@ -9,7 +9,9 @@
     "start": "next start",
     "lint": "next lint",
     "build:markers": "npx ts-node src/scripts/generateMarkers/generateMarkers.js --noEmit",
-    "build:cv": "npx ts-node src/scripts/generateCV/generateCV.js --noEmit"
+    "build:translations": "npx ts-node src/scripts/generateTranslations/generateTranslations.js --noEmit",
+    "build:cv": "npx ts-node src/scripts/generateCV/generateCV.js --noEmit",
+    "build:all": "npm run build:markers && npm run build:translations && npm run build:cv"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.8",
@@ -19,6 +21,7 @@
     "file-saver": "^2.0.5",
     "google-map-react": "^2.2.5",
     "handlebars": "^4.7.8",
+    "json-merger": "^3.0.0",
     "next": "^15.3.3",
     "next-intl": "^4.7.0",
     "puppeteer": "^24.34.0",

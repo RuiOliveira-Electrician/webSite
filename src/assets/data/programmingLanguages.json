@@ -1,0 +1,95 @@
+{
+  "description": [
+    {
+      "title": "Ladder",
+      "img": "lader",
+      "website": "https://ladderlogicworld.com/",
+      "type": [
+        "industrial",
+        "cv1"
+      ]
+    },
+    {
+      "title": "Arduino",
+      "img": "arduino",
+      "website": "https://github.com/rui-oliveira-tech/webSite/",
+      "type": [
+        "industrial"
+      ]
+    },
+    {
+      "title": "C++",
+      "img": "cpp",
+      "website": "https://www.w3schools.com/cpp/",
+      "type": [
+        "programmingLanguages",
+        "cv1"
+      ]
+    },
+    {
+      "title": "Css",
+      "img": "css",
+      "website": "https://www.w3schools.com/css/",
+      "type": [
+        "programmingLanguages"
+      ]
+    },
+    {
+      "title": "Html",
+      "img": "html",
+      "website": "https://www.w3.org/html/",
+      "type": [
+        "programmingLanguages"
+      ]
+    },
+    {
+      "title": "Js",
+      "img": "js",
+      "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/",
+      "type": [
+        "programmingLanguages",
+        "cv1"
+      ]
+    },
+    {
+      "title": "NodeJs",
+      "img": "nodeJs",
+      "website": "https://nodejs.org/",
+      "type": [
+        "programmingLanguages"
+      ]
+    },
+    {
+      "title": "Git",
+      "img": "git",
+      "website": "https://git-scm.com/",
+      "type": [
+        "software"
+      ]
+    },
+    {
+      "title": "Visual Studio Code",
+      "img": "vsc",
+      "website": "https://code.visualstudio.com/",
+      "type": [
+        "software"
+      ]
+    },
+    {
+      "title": "Linux",
+      "img": "linux",
+      "website": "https://www.linux.org/",
+      "type": [
+        "software"
+      ]
+    },
+    {
+      "title": "Windows",
+      "img": "windows",
+      "website": "https://www.microsoft.com/en-gb/windows/",
+      "type": [
+        "software"
+      ]
+    }
+  ]
+}

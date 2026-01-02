@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "app_title": "Industriële Elektricien Diensten",
+    "app_description": "Hoogwaardige elektrische installaties en onderhoud.",
+    "keywords": [
+      "industriële elektricien",
+      "onderhoud",
+      "automatisering",
+      "PLC",
+      "elektrische systemen",
+      "LV",
+      "HV"
+    ]
+  },
+  "characteristics": {
+    "sex": "Man",
+    "nationality": "Portugees"
+  },
+  "navigationBar": {
+    "homepage": "Home",
+    "cv": "Curriculum Vitae",
+    "portfolio": "Portefeuille"
+  },
+  "footer": {
+    "mailButton": "Contact mij"
+  },
+  "home": {
+    "subTitle": {
+      "first": "Industrieel Elektricien",
+      "second": "Residencial Electrician",
+      "third": "Schematisch projecteren"
+    },
+    "cvButton": "Downloaden Cv"
+  },
+  "about": {
+    "overlayTitle": "Wie ik ben",
+    "underlayTitle": "Over",
+    "description": {
+      "cv": "Als elektrisch professional heb ik een gevarieerd scala aan vaardigheden en expertise ontwikkeld die mij een waardevolle toevoeging zouden maken aan elk team. Met een passie voor elektrotechniek en een toewijding om op de hoogte te blijven van de nieuwste technologieën, ben ik ervan overtuigd dat ik elk uitdaging aankan.",
+      "salutation": "Ik ben Rui. Ik ben industrieel elektricien.",
+      "workingSituation": "Ik werk momenteel bij het bedrijf \n",
+      "body": {
+        "0": "Ik heb uitstekende kennis van elektriciteit, pneumatiek, hydrauliek, interpretatie van schema's, informatica in het perspectief van de gebruiker, evenals in het gebruik van internet.",
+        "1": "Mijn sterke punten zijn Elektrificatie van elektrische borden en constructies, industrieel onderhoud en reparatie.",
+        "2": "Ik heb ook ervaring in industriële automatisering en elektromechanica.",
+        "3": "Ik heb een goede teamgeest, coöperatief en met een voorliefde voor kennis en leren.",
+        "4": "Mijn voorkeur gaat uit naar het werken als industrieel elektricien, maar ik sluit de mogelijkheid niet uit om een ​​andere functie op verschillende gebieden uit te voeren."
+      },
+      "complimentaryClose": "Neem contact met mij op"
+    }
+  },
+  "softSkills": {
+    "underlayTitle": "Zachte Vaardigheden",
+    "description": []
+  },
+  "hardSkills": {
+    "underlayTitle": "Technische Vaardigheden",
+    "description": []
+  },
+  "certifications": {
+    "overlayTitle": "Wat zijn mijn accreditaties?",
+    "underlayTitle": "Certificeringen",
+    "key": {
+      "changeDiplomas": "Klik om te wisselen tussen Certificeringen, Dubbele en Verlopen Diploma's."
+    },
+    "description": []
+  },
+  "educations": {
+    "overlayTitle": "Wat ik heb geleerd",
+    "underlayTitle": "Éducation",
+    "key": {
+      "changeDiplomas": "Cliquez pour basculer entre Diplômes Valides, Duplicatas et Expirés."
+    },
+    "description": []
+  },
+  "languages": {
+    "overlayTitle": "Wat ik spreek",
+    "underlayTitle": "Talen",
+    "key": {
+      "language": "TAAL",
+      "understanding": "BEGRIP",
+      "speaking": "SPREKEN",
+      "writing": "SCHRIJVEN",
+      "listening": "Luisteren",
+      "reading": "Lezing",
+      "interaction": "Interactie",
+      "production": "Productie",
+      "levels": "Niveaus: A1/2: Basis - B1/2: Onafhankelijk - C1/2 bekwaam",
+      "framework": "Gemeenschappelijk Europees Referentiekader voor Talen"
+    },
+    "description": []
+  },
+  "programmingLanguages": {
+    "overlayTitle": "Wat ik programmeer",
+    "underlayTitle": "Programmeertalen"
+  },
+  "experiences": {
+    "overlayTitle": "Wat ik heb gedaan",
+    "underlayTitle": "Ervaring",
+    "description": []
+  },
+  "projects": {
+    "overlayTitle": "Wat ik heb gemaakt",
+    "underlayTitle": "Projecten",
+    "description": []
+  },
+  "other": {
+    "overlayTitle": "Andere dingen die ik heb gedaan",
+    "underlayTitle": "Andere dingen",
+    "description": []
+  },
+  "googleMapsMarkers": {
+    "overlayTitle": "Waar ik ben geweest",
+    "underlayTitle": "Google Maps-markeringen",
+    "description": []
+  },
+  "vcard": {
+    "redirectMessage": "Je wordt binnenkort doorgestuurd.",
+    "redirectCountdownTitle": "Doorgestuurd in",
+    "redirectCountdownUnit": "seconden",
+    "downloadPrompt": "Download Vcard",
+    "error": "Fout",
+    "errorMessage": "Probeer het later opnieuw."
+  },
+  "expressions": {
+    "globals": {
+      "sex": "Geslacht",
+      "dateOfBirth": "Geboortedatum",
+      "nationality": "Nationaliteit",
+      "page": "Bladzijde"
+    },
+    "prepositions": {
+      "in": "in"
+    },
+    "offerType": {
+      "Full-time": "Full-time",
+      "Internship": "Stage",
+      "permanent": "Permanent",
+      "valid": "Geldig tot",
+      "validDiploma": "Geldig Diploma",
+      "expiredDiploma": "Verlopen Diploma",
+      "duplicateDiploma": "Duplicaat Diploma"
+    },
+    "places": {
+      "antwerp": "Antwerpen",
+      "brech": "Brecht"
+    },
+    "countries": {
+      "NL": "Netherlands",
+      "BE": "België",
+      "PT": "Portugal",
+      "D": "Duitsland"
+    },
+    "languages": {
+      "pt": "Portugees",
+      "fr": "Frans",
+      "en": "Engels",
+      "es": "Spaans",
+      "nl": "Nederlands"
+    },
+    "languagesLevels": {
+      "native": "Natif",
+      "professional": "Professionnel",
+      "conversational": "Conversationnel"
+    },
+    "months": {
+      "present": "Nu",
+      "1": "Jan",
+      "2": "Feb",
+      "3": "Maart",
+      "4": "Apr",
+      "5": "Mei",
+      "6": "Juni",
+      "7": "Juli",
+      "8": "Aug",
+      "9": "Sept",
+      "10": "Oct",
+      "11": "Nov",
+      "12": "Dec"
+    }
+  }
+}

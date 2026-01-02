@@ -1,0 +1,40 @@
+{
+  "description": [
+    {
+      "flag": "en",
+      "listening": "B2",
+      "reading": "B1",
+      "spokenInteraction": "B1",
+      "spokenProduction": "B1",
+      "writing": "B1",
+      "level": "professional"
+    },
+    {
+      "flag": "es",
+      "listening": "B2",
+      "reading": "B1",
+      "spokenInteraction": "B1",
+      "spokenProduction": "B1",
+      "writing": "B1",
+      "level": "professional"
+    },
+    {
+      "flag": "nl",
+      "listening": "A2",
+      "reading": "A2",
+      "spokenInteraction": "A1",
+      "spokenProduction": "A1",
+      "writing": "A1",
+      "level": "conversational"
+    },
+    {
+      "flag": "pt",
+      "listening": "C2",
+      "reading": "C2",
+      "spokenInteraction": "C2",
+      "spokenProduction": "C2",
+      "writing": "C2",
+      "level": "native"
+    }
+  ]
+}

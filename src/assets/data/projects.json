@@ -1,0 +1,34 @@
+{
+  "description": [
+    {
+      "title": "Home Assistant",
+      "description": {
+        "en": "This Home Assistant setup is a comprehensive energy management and home automation system integrating a Huawei solar inverter, power meter, battery, boiler, and well water pump. The system monitors, controls, and publishes key sensor data while automating energy usage for efficiency and safety.",
+        "fr": "Cette configuration Home Assistant est un système complet de gestion d'énergie et d'automatisation domestique intégrant un onduleur solaire Huawei, un compteur d'énergie, une batterie, une chaudière et une pompe à eau de puits. Le système surveille, contrôle et publie les données des principaux capteurs tout en automatisant l'utilisation de l'énergie pour plus d'efficacité et de sécurité.",
+        "pt": "Esta configuração do Home Assistant é um sistema completo de gestão de energia e automação residencial, integrando um inversor solar Huawei, medidor de energia, bateria, caldeira e bomba de água de poço. O sistema monitora, controla e publica os dados dos principais sensores, automatizando o uso de energia para eficiência e segurança.",
+        "nl": "Deze Home Assistant-configuratie is een uitgebreid energiebeheer- en huisautomatiseringssysteem dat een Huawei-zonne-omvormer, energiemeter, batterij, boiler en putwaterpomp integreert. Het systeem bewaakt, regelt en publiceert belangrijke sensorgegevens terwijl het energieverbruik wordt geautomatiseerd voor efficiëntie en veiligheid."
+      },
+      "gitRepository": "homeAssistant",
+      "startDate": "2021-02-07",
+      "endDate": "Present",
+      "type": [
+        "cv1"
+      ]
+    },
+    {
+      "title": "Website",
+      "description": {
+        "en": "This website was created with the aim of promoting information about my professional career, in a way that is accessible to companies and interested people. The purpose of this website is to showcase my professional career and make information easily accessible to companies and individuals who are interested in learning more about me.",
+        "fr": "Le but de ce site web est de présenter ma carrière professionnelle et de rendre les informations facilement accessibles aux entreprises et aux particuliers qui souhaitent en savoir plus sur moi.",
+        "pt": "O objetivo deste site é apresentar minha carreira profissional e tornar as informações facilmente acessíveis para empresas e indivíduos interessados em saber mais sobre mim.",
+        "nl": "Het doel van deze website is om mijn professionele carrière te presenteren en informatie gemakkelijk toegankelijk te maken voor bedrijven en personen die geïnteresseerd zijn om meer over mij te weten te komen."
+      },
+      "gitRepository": "webSite",
+      "startDate": "2022-02-11",
+      "endDate": "Present",
+      "type": [
+        "cv1"
+      ]
+    }
+  ]
+}

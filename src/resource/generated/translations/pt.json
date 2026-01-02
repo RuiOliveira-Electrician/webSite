@@ -1,136 +1,129 @@
 {
   "meta": {
-    "app_title": "Industrial Electrician Services",
-    "app_description": "High-quality electrical installations and maintenance.",
+    "app_title": "Serviços de Eletricista Industrial",
+    "app_description": "Instalações e manutenções elétricas de alta qualidade.",
     "keywords": [
-      "industrial electrician",
-      "maintenance",
-      "automation",
-      "PLC",
-      "electrical systems",
+      "eletricista industrial",
+      "manutenção",
+      "automação",
+      "CLP",
+      "sistemas elétricos",
       "LV",
       "HV"
     ]
   },
   "characteristics": {
-    "name": "Rui Oliveira",
-    "sex": "Male",
-    "dateOfBirth": "19/12/1995",
-    "nationality": "Portuguese"
+    "sex": "Masculino",
+    "nationality": "Português"
   },
   "navigationBar": {
-    "homepage": "Home",
+    "homepage": "Inicio",
     "cv": "Curriculum Vitae",
-    "portfolio": "Portfolio"
+    "portfolio": "Portefólio"
   },
   "footer": {
-    "mailButton": "Hire Me"
+    "mailButton": "Contrate-me"
   },
   "home": {
-    "title": "Rui Oliveira",
     "subTitle": {
-      "first": "Industrial Electrician",
-      "second": "Residential Electrician",
-      "third": "Schematic Projecting"
+      "first": "Eletricista Industrial",
+      "second": "Eletricista Residencial",
+      "third": "Projetista Elétrico"
     },
     "cvButton": "Download Cv"
   },
   "about": {
-    "img": "about",
-    "overlayTitle": "Who I am",
-    "underlayTitle": "About",
+    "overlayTitle": "Quem eu sou",
+    "underlayTitle": "Acerca de mim",
     "description": {
-      "cv": "As an electrical professional, I have developed a diverse range of skills and expertise that would make me a valuable addition to any team. With a passion for electrical engineering and a commitment to staying up-to-date with the latest technologies, I am confident in my ability to tackle any challenge.",
-      "salutation": "I'm Rui. I'm a Industrial Electrician.",
-      "workingSituation": "I am currently working at the\n",
+      "cv": "Como profissional de eletricidade, desenvolvi uma ampla gama de habilidades e conhecimentos que me tornariam uma adição valiosa para qualquer equipe. Com uma paixão pela engenharia elétrica e um compromisso em estar atualizado com as últimas tecnologias, estou confiante em minha capacidade de enfrentar qualquer desafio.",
+      "salutation": "Eu sou o Rui. Sou Eletricista Industrial.",
+      "workingSituation": "Atualmente estou trabalhando na\n",
       "body": {
-        "0": "I have excellent knowledge of Electricity, Pneumatics, Hydraulics, Interpretation of schematics, Informatics in the user's perspective, as well as in the use of internet.",
-        "1": "My strengths are Electrification of electrical boards and structures, Industrial maintenance and repair.",
-        "2": "I also have experience in industrial automation and electromechanical.",
-        "3": "I have good team work spirit, cooperative and with a taste for knowledge and learning.",
-        "4": "I have preference in working as an industrial electrician, but I do not exclude the possibility of performing another position in different areas."
+        "0": "Possuo excelentes conhecimentos de Eletricidade, Pneumática, Hidráulica, Interpretação de esquemas, Informática na perspectiva do usuário, bem como no uso da internet.",
+        "1": "Os meus pontos fortes são Electrificação de quadros e estruturas eléctricas, Manutenção e reparação industrial.",
+        "2": "Também tenho experiência em automação industrial e eletromecânica.",
+        "3": "Tenho bom espírito de trabalho em equipa, cooperativo e com gosto pelo conhecimento e pela aprendizagem.",
+        "4": "Tenho preferência em trabalhar como eletricista industrial, mas não excluo a possibilidade de exercer outro cargo em diferentes áreas."
       },
-      "complimentaryClose": "Looking forward to hearing from you."
+      "complimentaryClose": "Aguardo contato."
     }
   },
-  "skills": {
-    "softSkills": {
-      "underlayTitle": "Soft Skills",
-      "description": [
-        {
-          "title": "Troubleshooting and problem-solving",
-          "description": "Strong analytical skills to quickly identify issues with electrical systems and develop effective solutions to resolve them.",
-          "type": [
-            "cv1"
-          ]
-        },
-        {
-          "title": "Communication and collaboration",
-          "description": "Excellent communication and collaboration skills, enabling successful outcomes through teamwork.",
-          "type": [
-            "cv1"
-          ]
-        },
-        {
-          "title": "Critical Thinking",
-          "description": "Analyzing facts to make informed decisions.",
-          "type": [
-            "cv1"
-          ]
-        },
-        {
-          "title": "Work Ethic",
-          "description": "Demonstrating reliability, diligence, and commitment to quality.",
-          "type": [
-            "cv1"
-          ]
-        }
-      ]
-    },
-    "hardSkills": {
-      "underlayTitle": "Hard Skills",
-      "description": [
-        {
-          "title": "Designing and analyzing systems",
-          "description": "Experience in designing electrical systems for a variety of applications, with proficiency in software tools such as Visio and AutoCAD to analyze and optimize these systems.",
-          "type": [
-            "cv1"
-          ]
-        },
-        {
-          "title": "Testing and Inspection",
-          "description": "Background in testing and inspecting electrical systems to ensure compliance and functionality, with the ability to provide detailed reports on findings.",
-          "type": [
-            "cv1"
-          ]
-        },
-        {
-          "title": "Project management",
-          "description": "Successful management of numerous electrical projects from start to finish, delivering high-quality results within budget and on time.",
-          "type": [
-            "cv1"
-          ]
-        },
-        {
-          "title": "Safety and compliance",
-          "description": "High focus on safety and compliance in all aspects of electrical work.",
-          "type": [
-            "cv1"
-          ]
-        }
-      ]
-    }
+  "softSkills": {
+    "underlayTitle": "Habilidades Interpessoais",
+    "description": [
+      {
+        "title": "Solução de problemas",
+        "description": "Fortes habilidades analíticas para identificar rapidamente problemas em sistemas elétricos e desenvolver soluções eficazes para resolvê-los.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Comunicação e colaboração",
+        "description": "Excelentes habilidades de comunicação e colaboração, permitindo resultados bem-sucedidos através do trabalho em equipe.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Pensamento Crítico",
+        "description": "Analisando fatos para tomar decisões informadas.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Ética de Trabalho",
+        "description": "Demonstrando confiabilidade, diligência e compromisso com a qualidade.",
+        "type": [
+          "cv1"
+        ]
+      }
+    ]
+  },
+  "hardSkills": {
+    "underlayTitle": "Habilidades Técnicas",
+    "description": [
+      {
+        "title": "Desenho e análise de sistemas",
+        "description": "Experiência em projetar sistemas elétricos para várias aplicações, com proficiência em ferramentas de software como Visio e AutoCAD para analisar e otimizar esses sistemas.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Teste e inspeção",
+        "description": "Experiência em testar e inspecionar sistemas elétricos para garantir conformidade e funcionalidade, com a capacidade de fornecer relatórios detalhados sobre as conclusões.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Gestão de projetos",
+        "description": "Gestão bem-sucedida de vários projetos elétricos do início ao fim, entregando resultados de alta qualidade dentro do orçamento e no prazo.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Segurança e conformidade",
+        "description": "Foco elevado em segurança e conformidade em todos os aspectos do trabalho elétrico.",
+        "type": [
+          "cv1"
+        ]
+      }
+    ]
   },
   "certifications": {
-    "img": "certification",
-    "overlayTitle": "What are my accreditations?",
-    "underlayTitle": "Certification",
+    "overlayTitle": "Quais as minhas acreditações ?",
+    "underlayTitle": "Certificação",
     "key": {
-      "changeDiplomas": "Click to switch between Valid, certification, and certification Diplomas."
+      "changeDiplomas": "Clique para alternar entre Certificações Válidos, Duplicados e Expirados."
     },
     "description": [
       {
-        "title": "IS-005 - Working with a mobile boom lift",
+        "title": "IS-005 - Trabalhar com plataforma elevatória autopropulsada",
         "companyTitle": "",
         "company": "FURBO",
         "location": "Antwerp, Belgium",
@@ -158,7 +151,7 @@
         ]
       },
       {
-        "title": "Electric Stacker",
+        "title": "Porta-Palete Elétrico",
         "companyTitle": "",
         "company": "PRAXIS",
         "location": "Izegem, Belgium",
@@ -186,7 +179,7 @@
         ]
       },
       {
-        "title": "Basic Technical - Mechanical",
+        "title": "Técnico Básico - Mecânica",
         "companyTitle": "",
         "company": "RelyOn Nutec",
         "location": "Amsterdam, Nederland",
@@ -199,7 +192,7 @@
         ]
       },
       {
-        "title": "Basic Technical - Hydraulic",
+        "title": "Técnico Básico - Hidráulica",
         "companyTitle": "",
         "company": "RelyOn Nutec",
         "location": "Amsterdam, Nederland",
@@ -212,7 +205,7 @@
         ]
       },
       {
-        "title": "Basic Technical - Electrical",
+        "title": "Técnico Básico - Elétrica",
         "companyTitle": "",
         "company": "RelyOn Nutec",
         "location": "Amsterdam, Nederland",
@@ -253,13 +246,13 @@
         ]
       },
       {
-        "title": "First Aid - Fire Awareness - Working at Heights - Manual Handling (GWO)",
+        "title": "Primeiros Socorros - Conscientização sobre Incêndios - Trabalho em Alturas - Manuseio Manual (GWO)",
         "companyTitle": "",
         "company": "RelyOn Nutec",
         "location": "Amsterdam, Nederland",
         "website": "https://relyonnutec.com/",
         "expirationDate": "2025-05-10",
-        "startDate": "2023-05-8",
+        "startDate": "2023-05-08",
         "endDate": "2023-05-10",
         "type": [
           "valid",
@@ -280,7 +273,7 @@
         ]
       },
       {
-        "title": "Driving course of electric forklifts, combustion and gas",
+        "title": "Curso de condução de empilhadores elétricos, combustão e gás",
         "companyTitle": "",
         "company": "Cincork",
         "location": "Santa Maria de Lamas, Portugal",
@@ -293,8 +286,8 @@
         ]
       },
       {
-        "title": "Driving license AM / B / B1 ",
-        "companyTitle": "Driving school",
+        "title": "Carta de condução AM / B / B1",
+        "companyTitle": "Escola de condução",
         "company": "Boavista",
         "location": "Santa Maria da Feira, Portugal",
         "website": "http://www.ecboavista.com/",
@@ -309,12 +302,14 @@
     ]
   },
   "educations": {
-    "img": "education",
-    "overlayTitle": "What I've learned",
-    "underlayTitle": "Education",
+    "overlayTitle": "O que eu aprendi",
+    "underlayTitle": "Éducation",
+    "key": {
+      "changeDiplomas": "Cliquez pour basculer entre Diplômes Valides, Duplicatas et Expirés."
+    },
     "description": [
       {
-        "title": "Electronic, automation and maintenance",
+        "title": "Curso de Eletrónica Automação e Comando",
         "companyTitle": "",
         "company": "CFPIC",
         "location": "São João da Madeira, Portugal",
@@ -328,8 +323,8 @@
         ]
       },
       {
-        "title": "High School, Course of Sciences and Technologies",
-        "companyTitle": "High School of",
+        "title": "Curso de Ciências e Tecnologias",
+        "companyTitle": "Liceu de",
         "company": "Santa Maria da Feira",
         "location": "Santa Maria da Feira, Portugal",
         "website": "https://ae-smfeira.pt/",
@@ -343,20 +338,19 @@
     ]
   },
   "languages": {
-    "img": "languages",
-    "overlayTitle": "What I speak",
-    "underlayTitle": "Languages",
+    "overlayTitle": "O que falo",
+    "underlayTitle": "Linguagens",
     "key": {
-      "language": "LANGUAGE",
-      "understanding": "UNDERSTANDING",
-      "speaking": "SPEAKING",
-      "writing": "WRITING",
-      "listening": "Listening",
-      "reading": "Reading",
-      "interaction": "Interaction",
-      "production": "Production",
-      "levels": "Levels: A1/2: Basic - B1/2: Independent - C1/2 Proficient",
-      "framework": "Common European Framework of Reference for Languages"
+      "language": "LINGUAGEM",
+      "understanding": "COMPREENDER",
+      "speaking": "FALAR",
+      "writing": "ESCREVER",
+      "listening": "Ouvir",
+      "reading": "Ler",
+      "interaction": "Interação",
+      "production": "Produção",
+      "levels": "Níveis: A1/2: básico - B1/2: Independente - C1/2 Profissional",
+      "framework": "Quadro Europeu Comum de Referência para Línguas"
     },
     "description": [
       {
@@ -398,9 +392,8 @@
     ]
   },
   "programmingLanguages": {
-    "img": "programmingLanguages",
-    "overlayTitle": "What I program",
-    "underlayTitle": "Programming Languages",
+    "overlayTitle": "O que programo",
+    "underlayTitle": "Linguagens de programação",
     "description": [
       {
         "title": "Ladder",
@@ -496,17 +489,16 @@
     ]
   },
   "experiences": {
-    "img": "experience",
-    "overlayTitle": "What I've done",
-    "underlayTitle": "Experience",
+    "overlayTitle": "O que eu fiz",
+    "underlayTitle": "Experiência",
     "description": [
       {
-        "title": "Field Service Technician",
+        "title": "Técnico de Serviço de Campo",
         "functionsPerformed": {
-          "0": "Commissioning industrial electrical systems.",
-          "1": "Troubleshooting LV and HV installations.",
-          "2": "Preventive and corrective maintenance with inspections.",
-          "3": "Validating electrical diagrams per safety and regulations."
+          "0": "Comissionamento de sistemas elétricos industriais.",
+          "1": "Resolução de falhas em instalações BT e AT.",
+          "2": "Manutenção preventiva e corretiva com inspeções.",
+          "3": "Validação de esquemas elétricos conforme normas de segurança."
         },
         "company": "ETI Building Technology",
         "location": "Belgium",
@@ -520,12 +512,12 @@
         ]
       },
       {
-        "title": "Field Service Technician",
+        "title": "Técnico de Serviço de Campo",
         "functionsPerformed": {
-          "0": "Electrical and mechanical work performed.",
-          "1": "Troubleshooting and diagnosing technical issues.",
-          "2": "Performing routine inspections and preventive maintenance.",
-          "3": "Adhering to safety protocols and ensuring compliance with company and industry standards."
+          "0": "Trabalho elétrico e mecânico realizado.",
+          "1": "Solução de problemas e diagnóstico de questões técnicas.",
+          "2": "Realização de inspeções de rotina e manutenção preventiva.",
+          "3": "Cumprimento dos protocolos de segurança e garantia de conformidade com os padrões da empresa e da indústria."
         },
         "company": "VESTAS BELGIUM nv",
         "location": "Belgium",
@@ -539,11 +531,11 @@
         ]
       },
       {
-        "title": "Industrial Electrician",
+        "title": "Eletricista Industrial",
         "functionsPerformed": {
-          "0": "Glass Processing Lines.",
-          "1": "Troubleshooting machinery problems electrical and mechanical.",
-          "2": "PLC + Robotic arms."
+          "0": "Linhas de processamento de vidro.",
+          "1": "Resolução de problemas de máquinas elétricas e mecânicas.",
+          "2": "PLC + braços robóticos."
         },
         "company": "AGP eGlass",
         "location": "Evergem, Belgium",
@@ -554,11 +546,11 @@
         "type": []
       },
       {
-        "title": "Industrial Electrician",
+        "title": "Eletricista Industrial",
         "functionsPerformed": {
-          "0": "Troubleshooting machinery problems.",
-          "1": "Installing cable ducts, passing cables, connecting electrical boards.",
-          "2": "Basic mechanics."
+          "0": "Encontrar problemas na máquina e consertar.",
+          "1": "Instalação de calhas para cabos, passagem de cabos, conexão de quadros elétricos.",
+          "2": "Mecânica básica."
         },
         "company": "SOCEA nv",
         "location": "Oelegem, Belgium",
@@ -571,11 +563,11 @@
         ]
       },
       {
-        "title": "Cold Technician",
+        "title": "Técnico de frio",
         "functionsPerformed": {
-          "0": "Repair, inspection, and maintenance of cold containers.",
-          "1": "Copper welding.",
-          "2": "Replacement of motors and sensors."
+          "0": "Reparação, Inspeção e manutenção de contentores frios.",
+          "1": "Soldadura de cobre.",
+          "2": "Substituição de motores e sensores."
         },
         "company": "MEDREPAIR",
         "location": "Beveren, Belgium",
@@ -588,12 +580,12 @@
         ]
       },
       {
-        "title": "Industrial Electrician",
+        "title": "Eletricista Industrial",
         "functionsPerformed": {
-          "0": "Repairing industrial machines (electrical and electromechanical).",
-          "1": "Elaboration and electrification of electrical boards.",
-          "2": "Electrical assembly of machines and structures of transport of cork.",
-          "3": "Beginner of programming automation of PLC (OMRON)."
+          "0": "Reparação de máquinas industriais (eléctricas e electromecânicas).",
+          "1": "Elaboração e electrificação de quadros elétricos.",
+          "2": "Montagem elétrica de máquinas e estruturas de transporte de cortiça.",
+          "3": "Iniciante em programação e automatização de PLC (OMRON)."
         },
         "company": "SERSAN",
         "location": "Lourosa, Portugal",
@@ -607,9 +599,9 @@
         ]
       },
       {
-        "title": "Electronic, Automation and Maintenance (1500 hours)",
+        "title": "Eletrónica Automação e Comando (1500 horas)",
         "functionsPerformed": {
-          "0": "Repairing and maintaining household appliances."
+          "0": "Reparação e manutenção de eletrodomésticos."
         },
         "company": "Electro Oliveira",
         "location": "Milheirós de Poiares, Portugal",
@@ -624,13 +616,12 @@
     ]
   },
   "projects": {
-    "img": "projects",
-    "overlayTitle": "What I've created",
-    "underlayTitle": "Projects",
+    "overlayTitle": "O que desenvolvi",
+    "underlayTitle": "Projectos",
     "description": [
       {
         "title": "Home Assistant",
-        "description": "This Home Assistant setup is a comprehensive energy management and home automation system integrating a Huawei solar inverter, power meter, battery, boiler, and well water pump. The system monitors, controls, and publishes key sensor data while automating energy usage for efficiency and safety.",
+        "description": "Esta configuração do Home Assistant é um sistema completo de gestão de energia e automação residencial, integrando um inversor solar Huawei, medidor de energia, bateria, caldeira e bomba de água de poço. O sistema monitora, controla e publica os dados dos principais sensores, automatizando o uso de energia para eficiência e segurança.",
         "gitRepository": "homeAssistant",
         "startDate": "2021-02-07",
         "endDate": "Present",
@@ -640,7 +631,7 @@
       },
       {
         "title": "Website",
-        "description": "This website was created with the aim of promoting information about my professional career, in a way that is accessible to companies and interested people.The purpose of this website is to showcase my professional career and make information easily accessible to companies and individuals who are interested in learning more about me.",
+        "description": "O objetivo deste site é apresentar minha carreira profissional e tornar as informações facilmente acessíveis para empresas e indivíduos interessados em saber mais sobre mim.",
         "gitRepository": "webSite",
         "startDate": "2022-02-11",
         "endDate": "Present",
@@ -651,13 +642,13 @@
     ]
   },
   "other": {
-    "img": "other",
-    "overlayTitle": "Other stuff I've done",
-    "underlayTitle": "Other things",
+    "overlayTitle": "Outras coisas que fiz",
+    "underlayTitle": "Outros",
     "description": [
       {
+        "id": 2,
         "title": "Off We Go – IB&C WEEKS",
-        "description": "Scholar Exchange experience.",
+        "description": "Experiência de intercâmbio acadêmico",
         "startDate": "2014-05-17",
         "endDate": "2014-05-25",
         "type": [
@@ -665,8 +656,9 @@
         ]
       },
       {
-        "title": "Europe tour",
-        "description": "Countries I visited.",
+        "id": 1,
+        "title": "Viagem pela Europa",
+        "description": "Países que visitei.",
         "startDate": "2021-02-07",
         "endDate": "Present",
         "type": [
@@ -676,75 +668,74 @@
     ]
   },
   "googleMapsMarkers": {
-    "img": "googleMapsMarkers",
-    "overlayTitle": "Where I've  been",
-    "underlayTitle": "Google Maps Markers",
+    "overlayTitle": "Onde eu estive",
+    "underlayTitle": "Marcadores do Google Maps",
     "description": []
   },
   "vcard": {
-    "redirectMessage": "You will be redirected shortly.",
-    "redirectCountdownTitle": "Redirecting in",
-    "redirectCountdownUnit": "seconds",
-    "downloadPrompt": "Download Vcard",
-    "error": "Error",
-    "errorMessage": "Please try again later."
+    "redirectMessage": "Você será redirecionado em breve.",
+    "redirectCountdownTitle": "Redirecionando em",
+    "redirectCountdownUnit": "segundos",
+    "downloadPrompt": "Baixar Vcard",
+    "error": "Erro",
+    "errorMessage": "Por favor, tente novamente mais tarde."
   },
   "expressions": {
     "globals": {
-      "sex": "Sex",
-      "dateOfBirth": "Date of birth",
-      "nationality": "Nationality",
-      "page": "Page"
+      "sex": "Sexo",
+      "dateOfBirth": "Data de nascimento",
+      "nationality": "Nacionalidade",
+      "page": "Página"
     },
     "prepositions": {
-      "in": "in"
+      "in": "em"
     },
-    "offerTypes": {
-      "Full-time": "Full-time",
-      "Internship": "Internship",
-      "permanent": "Permanent",
-      "valid": "Valid until",
-      "expired": "Expired at",
-      "validDiplom": "Valid Diploma",
-      "expiredDiplom": "Expired Diploma",
-      "duplicateDiplom": "Duplicate Diploma"
+    "offerType": {
+      "Full-time": "Tempo inteiro",
+      "Internship": "Estágio",
+      "permanent": "Permanente",
+      "valid": "Válido até",
+      "expired": "Expirado em",
+      "validDiploma": "Diploma Válido",
+      "expiredDiplom": "Diploma Caducado",
+      "duplicateDiploma": "Diploma Duplicado"
     },
     "places": {
-      "antwerp": "Antwerpen",
+      "antwerp": "Antuérpia",
       "brech": "Brecht"
     },
     "countries": {
-      "NL": "Netherlands",
-      "BE": "Belgium",
+      "NL": "Holanda",
+      "BE": "Bélgica",
       "PT": "Portugal",
-      "D": "Germany"
+      "D": "Alemanha"
     },
     "languages": {
-      "pt": "Portuguese",
-      "fr": "French",
-      "en": "English",
-      "es": "Spanish",
-      "nl": "Dutch"
+      "pt": "Português",
+      "fr": "Francês",
+      "en": "Inglés",
+      "es": "Espanhol",
+      "nl": "Holandés"
     },
     "languagesLevels": {
-      "native": "Native",
-      "professional": "Professional",
-      "conversational": "Conversational"
+      "native": "Nativo",
+      "professional": "Profissional",
+      "conversational": "Conversação"
     },
     "months": {
-      "present": "Present",
       "1": "Jan",
-      "2": "Feb",
-      "3": "Mar",
-      "4": "Apr",
-      "5": "May",
-      "6": "June",
-      "7": "July",
-      "8": "Aug",
-      "9": "Sept",
-      "10": "Oct",
+      "2": "Fev",
+      "3": "Março",
+      "4": "Abril",
+      "5": "Maio",
+      "6": "Junho",
+      "7": "Julho",
+      "8": "Agosto",
+      "9": "Set",
+      "10": "Out",
       "11": "Nov",
-      "12": "Dec"
+      "12": "Dez",
+      "present": "Presente"
     }
   }
 }

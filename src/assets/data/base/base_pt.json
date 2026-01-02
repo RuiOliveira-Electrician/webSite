@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "app_title": "Serviços de Eletricista Industrial",
+    "app_description": "Instalações e manutenções elétricas de alta qualidade.",
+    "keywords": [
+      "eletricista industrial",
+      "manutenção",
+      "automação",
+      "CLP",
+      "sistemas elétricos",
+      "LV",
+      "HV"
+    ]
+  },
+  "characteristics": {
+    "sex": "Masculino",
+    "nationality": "Português"
+  },
+  "navigationBar": {
+    "homepage": "Inicio",
+    "cv": "Curriculum Vitae",
+    "portfolio": "Portefólio"
+  },
+  "footer": {
+    "mailButton": "Contrate-me"
+  },
+  "home": {
+    "subTitle": {
+      "first": "Eletricista Industrial",
+      "second": "Eletricista Residencial",
+      "third": "Projetista Elétrico"
+    },
+    "cvButton": "Download Cv"
+  },
+  "about": {
+    "overlayTitle": "Quem eu sou",
+    "underlayTitle": "Acerca de mim",
+    "description": {
+      "cv": "Como profissional de eletricidade, desenvolvi uma ampla gama de habilidades e conhecimentos que me tornariam uma adição valiosa para qualquer equipe. Com uma paixão pela engenharia elétrica e um compromisso em estar atualizado com as últimas tecnologias, estou confiante em minha capacidade de enfrentar qualquer desafio.",
+      "salutation": "Eu sou o Rui. Sou Eletricista Industrial.",
+      "workingSituation": "Atualmente estou trabalhando na\n",
+      "body": {
+        "0": "Possuo excelentes conhecimentos de Eletricidade, Pneumática, Hidráulica, Interpretação de esquemas, Informática na perspectiva do usuário, bem como no uso da internet.",
+        "1": "Os meus pontos fortes são Electrificação de quadros e estruturas eléctricas, Manutenção e reparação industrial.",
+        "2": "Também tenho experiência em automação industrial e eletromecânica.",
+        "3": "Tenho bom espírito de trabalho em equipa, cooperativo e com gosto pelo conhecimento e pela aprendizagem.",
+        "4": "Tenho preferência em trabalhar como eletricista industrial, mas não excluo a possibilidade de exercer outro cargo em diferentes áreas."
+      },
+      "complimentaryClose": "Aguardo contato."
+    }
+  },
+  "softSkills": {
+    "underlayTitle": "Habilidades Interpessoais",
+    "description": []
+  },
+  "hardSkills": {
+    "underlayTitle": "Habilidades Técnicas",
+    "description": []
+  },
+  "certifications": {
+    "overlayTitle": "Quais as minhas acreditações ?",
+    "underlayTitle": "Certificação",
+    "key": {
+      "changeDiplomas": "Clique para alternar entre Certificações Válidos, Duplicados e Expirados."
+    },
+    "description": []
+  },
+  "educations": {
+    "overlayTitle": "O que eu aprendi",
+    "underlayTitle": "Éducation",
+    "key": {
+      "changeDiplomas": "Cliquez pour basculer entre Diplômes Valides, Duplicatas et Expirés."
+    },
+    "description": []
+  },
+  "languages": {
+    "overlayTitle": "O que falo",
+    "underlayTitle": "Linguagens",
+    "key": {
+      "language": "LINGUAGEM",
+      "understanding": "COMPREENDER",
+      "speaking": "FALAR",
+      "writing": "ESCREVER",
+      "listening": "Ouvir",
+      "reading": "Ler",
+      "interaction": "Interação",
+      "production": "Produção",
+      "levels": "Níveis: A1/2: básico - B1/2: Independente - C1/2 Profissional",
+      "framework": "Quadro Europeu Comum de Referência para Línguas"
+    },
+    "description": []
+  },
+  "programmingLanguages": {
+    "overlayTitle": "O que programo",
+    "underlayTitle": "Linguagens de programação",
+    "description": []
+  },
+  "experiences": {
+    "overlayTitle": "O que eu fiz",
+    "underlayTitle": "Experiência",
+    "description": []
+  },
+  "projects": {
+    "overlayTitle": "O que desenvolvi",
+    "underlayTitle": "Projectos",
+    "description": []
+  },
+  "other": {
+    "overlayTitle": "Outras coisas que fiz",
+    "underlayTitle": "Outros",
+    "description": []
+  },
+  "googleMapsMarkers": {
+    "overlayTitle": "Onde eu estive",
+    "underlayTitle": "Marcadores do Google Maps",
+    "description": []
+  },
+  "vcard": {
+    "redirectMessage": "Você será redirecionado em breve.",
+    "redirectCountdownTitle": "Redirecionando em",
+    "redirectCountdownUnit": "segundos",
+    "downloadPrompt": "Baixar Vcard",
+    "error": "Erro",
+    "errorMessage": "Por favor, tente novamente mais tarde."
+  },
+  "expressions": {
+    "globals": {
+      "sex": "Sexo",
+      "dateOfBirth": "Data de nascimento",
+      "nationality": "Nacionalidade",
+      "page": "Página"
+    },
+    "prepositions": {
+      "in": "em"
+    },
+    "offerType": {
+      "Full-time": "Tempo inteiro",
+      "Internship": "Estágio",
+      "permanent": "Permanente",
+      "valid": "Válido até",
+      "expired": "Expirado em",
+      "validDiploma": "Diploma Válido",
+      "expiredDiplom": "Diploma Caducado",
+      "duplicateDiploma": "Diploma Duplicado"
+    },
+    "places": {
+      "antwerp": "Antuérpia",
+      "brech": "Brecht"
+    },
+    "countries": {
+      "NL": "Holanda",
+      "BE": "Bélgica",
+      "PT": "Portugal",
+      "D": "Alemanha"
+    },
+    "languages": {
+      "pt": "Português",
+      "fr": "Francês",
+      "en": "Inglés",
+      "es": "Espanhol",
+      "nl": "Holandés"
+    },
+    "languagesLevels": {
+      "native": "Nativo",
+      "professional": "Profissional",
+      "conversational": "Conversação"
+    },
+    "months": {
+      "present": "Presente",
+      "1": "Jan",
+      "2": "Fev",
+      "3": "Março",
+      "4": "Abril",
+      "5": "Maio",
+      "6": "Junho",
+      "7": "Julho",
+      "8": "Agosto",
+      "9": "Set",
+      "10": "Out",
+      "11": "Nov",
+      "12": "Dez"
+    }
+  }
+}

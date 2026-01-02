@@ -6,8 +6,8 @@ import AppShell from "@/components/layout/AppShell";
 import NavigationBar from "@/components/layout/navigationBar/NavigationBar";
 import Footer from "@/components/layout/footer/Footer";
 
-import "@/assets/styles/globalVar.scss";
-import "@/assets/styles/global.css";
+import "@/styles/globalVar.scss";
+import "@/styles/global.css";
 
 interface ILayoutProps {
   children: React.ReactNode;

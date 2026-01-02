@@ -1,0 +1,72 @@
+{
+  "description": [
+    {
+      "title": {
+        "en": "Designing and analyzing systems",
+        "fr": "Conception et analyse de systèmes",
+        "pt": "Desenho e análise de sistemas",
+        "nl": "Ontwerp en analyse van systemen"
+      },
+      "description": {
+        "en": "Experience in designing electrical systems for a variety of applications, with proficiency in software tools such as Visio and AutoCAD to analyze and optimize these systems.",
+        "fr": "Expérience dans la conception de systèmes électriques pour diverses applications, avec une maîtrise des outils logiciels tels que Visio et AutoCAD pour analyser et optimiser ces systèmes.",
+        "pt": "Experiência em projetar sistemas elétricos para várias aplicações, com proficiência em ferramentas de software como Visio e AutoCAD para analisar e otimizar esses sistemas.",
+        "nl": "Ervaring met het ontwerpen van elektrische systemen voor verschillende toepassingen, met vaardigheid in softwaretools zoals Visio en AutoCAD om deze systemen te analyseren en optimaliseren."
+      },
+      "type": [
+        "cv1"
+      ]
+    },
+    {
+      "title": {
+        "en": "Testing and Inspection",
+        "fr": "Test et inspection",
+        "pt": "Teste e inspeção",
+        "nl": "Testen en inspectie"
+      },
+      "description": {
+        "en": "Background in testing and inspecting electrical systems to ensure compliance and functionality, with the ability to provide detailed reports on findings.",
+        "fr": "Expérience dans les tests et l'inspection des systèmes électriques pour garantir la conformité et la fonctionnalité, avec la capacité de fournir des rapports détaillés sur les résultats.",
+        "pt": "Experiência em testar e inspecionar sistemas elétricos para garantir conformidade e funcionalidade, com a capacidade de fornecer relatórios detalhados sobre as conclusões.",
+        "nl": "Ervaring in het testen en inspecteren van elektrische systemen om naleving en functionaliteit te waarborgen, met het vermogen om gedetailleerde rapporten over de bevindingen te leveren."
+      },
+      "type": [
+        "cv1"
+      ]
+    },
+    {
+      "title": {
+        "en": "Project management",
+        "fr": "Gestion de projets",
+        "pt": "Gestão de projetos",
+        "nl": "Projectmanagement"
+      },
+      "description": {
+        "en": "Successful management of numerous electrical projects from start to finish, delivering high-quality results within budget and on time.",
+        "fr": "Gestion réussie de nombreux projets électriques du début à la fin, en livrant des résultats de haute qualité dans les délais et le budget.",
+        "pt": "Gestão bem-sucedida de vários projetos elétricos do início ao fim, entregando resultados de alta qualidade dentro do orçamento e no prazo.",
+        "nl": "Succesvol beheer van talrijke elektrische projecten van begin tot eind, waarbij hoogwaardige resultaten op tijd en binnen het budget worden geleverd."
+      },
+      "type": [
+        "cv1"
+      ]
+    },
+    {
+      "title": {
+        "en": "Safety and compliance",
+        "fr": "Sécurité et conformité",
+        "pt": "Segurança e conformidade",
+        "nl": "Veiligheid en naleving"
+      },
+      "description": {
+        "en": "High focus on safety and compliance in all aspects of electrical work.",
+        "fr": "Forte attention à la sécurité et à la conformité dans tous les aspects du travail électrique.",
+        "pt": "Foco elevado em segurança e conformidade em todos os aspectos do trabalho elétrico.",
+        "nl": "Sterke focus op veiligheid en naleving in alle aspecten van elektrisch werk."
+      },
+      "type": [
+        "cv1"
+      ]
+    }
+  ]
+}

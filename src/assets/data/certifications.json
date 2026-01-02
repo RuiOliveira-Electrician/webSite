@@ -1,0 +1,251 @@
+{
+    "description": [
+        {
+            "title": {
+                "en": "IS-005 - Working with a mobile boom lift",
+                "fr": "IS-005 - Travail avec une nacelle mobile",
+                "pt": "IS-005 - Trabalhar com plataforma elevatória autopropulsada",
+                "nl": "IS-005 - Werken met zelfrijdende hoogwerker"
+            },
+            "companyTitle": "",
+            "company": "FURBO",
+            "location": "Antwerp, Belgium",
+            "website": "https://www.furbo.be/",
+            "expirationDate": "2030-09-26",
+            "startDate": "",
+            "endDate": "2025-09-26",
+            "type": [
+                "valid",
+                "cv1"
+            ]
+        },
+        {
+            "title": {
+                "en": "VP LS + HS (NEN 3140 + 3840)",
+                "fr": "VP LS + HS (NEN 3140 + 3840)",
+                "pt": "VP LS + HS (NEN 3140 + 3840)",
+                "nl": "VP LS + HS (NEN 3140 + 3840)"
+            },
+            "companyTitle": "",
+            "company": "Aestimavi",
+            "location": "Zwolle, Nederland",
+            "website": "https://aestimavi.com/",
+            "expirationDate": "2027-06-30",
+            "startDate": "2024-03-14",
+            "endDate": "2024-07-01",
+            "type": [
+                "valid",
+                "cv1"
+            ]
+        },
+        {
+            "title": {
+                "en": "Electric Stacker",
+                "fr": "Gerbeur électrique",
+                "pt": "Porta-Palete Elétrico",
+                "nl": "Electric Stacker"
+            },
+            "companyTitle": "",
+            "company": "PRAXIS",
+            "location": "Izegem, Belgium",
+            "website": "https://www.praxistraining.be/",
+            "expirationDate": "2029-02-14",
+            "startDate": "",
+            "endDate": "2024-02-14",
+            "type": [
+                "valid",
+                "cv1"
+            ]
+        },
+        {
+            "title": {
+                "en": "Slinger Signaller (GWO)",
+                "fr": "Slinger Signaller (GWO)",
+                "pt": "Slinger Signaller (GWO)",
+                "nl": "Slinger Signaller (GWO)"
+            },
+            "companyTitle": "",
+            "company": "Normec ISEC",
+            "location": "Beveren, Belgium",
+            "website": "https://normecisec.com/",
+            "expirationDate": "Permanent",
+            "startDate": "2023-09-07",
+            "endDate": "2023-09-08",
+            "type": [
+                "valid",
+                "cv1"
+            ]
+        },
+        {
+            "title": {
+                "en": "Basic Technical - Mechanical",
+                "fr": "Technique de base - Mécanique",
+                "pt": "Técnico Básico - Mecânica",
+                "nl": "Basis Technisch - Mechanisch"
+            },
+            "companyTitle": "",
+            "company": "RelyOn Nutec",
+            "location": "Amsterdam, Nederland",
+            "website": "https://relyonnutec.com/",
+            "expirationDate": "Permanent",
+            "startDate": "2023-06-19",
+            "endDate": "2023-06-22",
+            "type": [
+                "valid"
+            ]
+        },
+        {
+            "title": {
+                "en": "Basic Technical - Hydraulic",
+                "fr": "Technique de Base - Hydraulique",
+                "pt": "Técnico Básico - Hidráulica",
+                "nl": "Basis technisch - hydraulisch"
+            },
+            "companyTitle": "",
+            "company": "RelyOn Nutec",
+            "location": "Amsterdam, Nederland",
+            "website": "https://relyonnutec.com/",
+            "expirationDate": "Permanent",
+            "startDate": "2023-06-19",
+            "endDate": "2023-06-22",
+            "type": [
+                "duplicate"
+            ]
+        },
+        {
+            "title": {
+                "en": "Basic Technical - Electrical",
+                "fr": "Technique de base - Électricité",
+                "pt": "Técnico Básico - Elétrica",
+                "nl": "Basis technisch - elektrisch"
+            },
+            "companyTitle": "",
+            "company": "RelyOn Nutec",
+            "location": "Amsterdam, Nederland",
+            "website": "https://relyonnutec.com/",
+            "expirationDate": "Permanent",
+            "startDate": "2023-06-19",
+            "endDate": "2023-06-22",
+            "type": [
+                "duplicate",
+                "cv1"
+            ]
+        },
+        {
+            "title": {
+                "en": "VOL-VCA",
+                "fr": "VOL-VCA",
+                "pt": "VOL-VCA",
+                "nl": "VOL-VCA"
+            },
+            "companyTitle": "",
+            "company": "PBNA",
+            "location": "Bergen op Zoom, Netherlands",
+            "website": "https://www.pbna.com/",
+            "expirationDate": "2033-05-17",
+            "startDate": "",
+            "endDate": "2023-05-17",
+            "type": [
+                "valid",
+                "cv1"
+            ]
+        },
+        {
+            "title": {
+                "en": "BA4",
+                "fr": "BA4",
+                "pt": "BA4",
+                "nl": "BA4"
+            },
+            "companyTitle": "",
+            "company": "Vestas",
+            "location": "Arnhem, Netherlands",
+            "website": "https://www.vestas.com/",
+            "expirationDate": "2024-05-12",
+            "startDate": "2023-05-11",
+            "endDate": "2023-05-12",
+            "type": [
+                "duplicate"
+            ]
+        },
+        {
+            "title": {
+                "en": "First Aid - Fire Awareness - Working at Heights - Manual Handling (GWO)",
+                "fr": "Premiers Secours - Sensibilisation aux Incendies - Travail en Hauteur - Manutention Manuelle (GWO)",
+                "pt": "Primeiros Socorros - Conscientização sobre Incêndios - Trabalho em Alturas - Manuseio Manual (GWO)",
+                "nl": "EHBO - Brandbewustzijn - Werken op Hoogte - Handmatig Hanteren (GWO)"
+            },
+            "companyTitle": "",
+            "company": "RelyOn Nutec",
+            "location": "Amsterdam, Nederland",
+            "website": "https://relyonnutec.com/",
+            "expirationDate": "2025-05-10",
+            "startDate": "2023-05-08",
+            "endDate": "2023-05-10",
+            "type": [
+                "valid",
+                "cv1"
+            ]
+        },
+        {
+            "title": {
+                "en": "BASIS-VCA",
+                "fr": "BASIS-VCA",
+                "pt": "BASIS-VCA",
+                "nl": "BASIS-VCA"
+            },
+            "companyTitle": "",
+            "company": "HaCeCo",
+            "location": "Werchter, Belgium",
+            "website": "https://www.haceco.be/",
+            "expirationDate": "2029-09-12",
+            "startDate": "",
+            "endDate": "2019-09-12",
+            "type": [
+                "duplicate"
+            ]
+        },
+        {
+            "title": {
+                "en": "Driving course of electric forklifts, combustion and gas",
+                "fr": "Diplôme en conduite de chariots élévateurs électriques, à combustion et à gaz",
+                "pt": "Curso de condução de empilhadores elétricos, combustão e gás",
+                "nl": "Rijopleiding elektrische heftrucks, verbranding en gas"
+            },
+            "companyTitle": "",
+            "company": "Cincork",
+            "location": "Santa Maria de Lamas, Portugal",
+            "website": "https://www.cincork.com/",
+            "expirationDate": "Permanent",
+            "startDate": "2018-03-07",
+            "endDate": "2018-05-03",
+            "type": [
+                "valid"
+            ]
+        },
+        {
+            "title": {
+                "en": "Driving license AM / B / B1",
+                "fr": "Permis de conduire AM / B / B1",
+                "pt": "Carta de condução AM / B / B1",
+                "nl": "Rijbewijs AM / B / B1"
+            },
+            "companyTitle": {
+                "en": "Driving school",
+                "fr": "École de conduite",
+                "pt": "Escola de condução",
+                "nl": "Driving school"
+            },
+            "company": "Boavista",
+            "location": "Santa Maria da Feira, Portugal",
+            "website": "http://www.ecboavista.com/",
+            "expirationDate": "Permanent",
+            "startDate": "",
+            "endDate": "2015-12-04",
+            "type": [
+                "valid",
+                "cv1"
+            ]
+        }
+    ]
+}

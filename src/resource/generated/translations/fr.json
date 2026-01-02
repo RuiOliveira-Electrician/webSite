@@ -1,0 +1,741 @@
+{
+  "meta": {
+    "app_title": "Services d'électricien industriel",
+    "app_description": "Installations et maintenance électriques de haute qualité.",
+    "keywords": [
+      "électricien industriel",
+      "maintenance",
+      "automatisation",
+      "automate programmable",
+      "systèmes électriques",
+      "LV",
+      "HV"
+    ]
+  },
+  "characteristics": {
+    "sex": "Homme",
+    "nationality": "Portugais"
+  },
+  "navigationBar": {
+    "homepage": "Home",
+    "cv": "Curriculum Vitae",
+    "portfolio": "Portefeuille"
+  },
+  "footer": {
+    "mailButton": "Contactez-moi"
+  },
+  "home": {
+    "subTitle": {
+      "first": "Electricien Industriel",
+      "second": "Electricien Résidentiel",
+      "third": "Concepteur électrique"
+    },
+    "cvButton": "Télécharger Cv"
+  },
+  "about": {
+    "overlayTitle": "Qui je suis",
+    "underlayTitle": "Sur moi",
+    "description": {
+      "cv": "En tant que professionnel de l'électricité, j'ai développé une gamme diversifiée de compétences et d'expertise qui feraient de moi un ajout précieux à n'importe quelle équipe. Avec une passion pour le génie électrique et un engagement à rester à jour avec les dernières technologies, je suis confiant dans ma capacité à relever n'importe quel défi.",
+      "salutation": "Je m'appelle Rui. Je suis électricien industriel.",
+      "workingSituation": "Actuellement, je travaille chez\n",
+      "body": {
+        "0": "J'ai d'excellentes connaissances en électricité, pneumatique, hydraulique. Mais également dans l'interprétation des systèmes, dans l'informatique depuis la perpective de l'utilisateur, comme dans l'usage d'internet.",
+        "1": "Mes points forts sont l'électrification des panneaux et des structures électriques, la maintenance et la réparation industrielles.",
+        "2": "J'ai également de l'expérience en automatisation industrielle et en électromécanique.",
+        "3": "J'ai un bon esprit de travail en équipe, de coopération, et un goût pour la connaissance et l'apprentissage",
+        "4": "De préfé  rence, je souhaite travailler comme électricien industriel mais je n'exclue pas l'opportunité d'exercer d'autres postes à responsabilités dans différents domaines."
+      },
+      "complimentaryClose": "Contactez-moi."
+    }
+  },
+  "softSkills": {
+    "underlayTitle": "Compétences Interpersonnelles",
+    "description": [
+      {
+        "title": "Dépannage et résolution de problèmes",
+        "description": "Solides compétences analytiques pour identifier rapidement les problèmes des systèmes électriques et développer des solutions efficaces pour les résoudre.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Communication et collaboration",
+        "description": "Excellentes compétences en communication et en collaboration, permettant d'obtenir des résultats réussis grâce au travail d'équipe.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Pensée Critique",
+        "description": "Analyser les faits pour prendre des décisions éclairées.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Éthique de Travail",
+        "description": "Démontrer fiabilité, diligence et engagement envers la qualité.",
+        "type": [
+          "cv1"
+        ]
+      }
+    ]
+  },
+  "hardSkills": {
+    "underlayTitle": "Compétences Techniques",
+    "description": [
+      {
+        "title": "Conception et analyse de systèmes",
+        "description": "Expérience dans la conception de systèmes électriques pour diverses applications, avec une maîtrise des outils logiciels tels que Visio et AutoCAD pour analyser et optimiser ces systèmes.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Test et inspection",
+        "description": "Expérience dans les tests et l'inspection des systèmes électriques pour garantir la conformité et la fonctionnalité, avec la capacité de fournir des rapports détaillés sur les résultats.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Gestion de projets",
+        "description": "Gestion réussie de nombreux projets électriques du début à la fin, en livrant des résultats de haute qualité dans les délais et le budget.",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Sécurité et conformité",
+        "description": "Forte attention à la sécurité et à la conformité dans tous les aspects du travail électrique.",
+        "type": [
+          "cv1"
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "overlayTitle": "Quelles sont mes accréditations?",
+    "underlayTitle": "Certification",
+    "key": {
+      "changeDiplomas": "Cliquez pour basculer entre Certifications, Diplômes en double et expirés."
+    },
+    "description": [
+      {
+        "title": "IS-005 - Travail avec une nacelle mobile",
+        "companyTitle": "",
+        "company": "FURBO",
+        "location": "Antwerp, Belgium",
+        "website": "https://www.furbo.be/",
+        "expirationDate": "2030-09-26",
+        "startDate": "",
+        "endDate": "2025-09-26",
+        "type": [
+          "valid",
+          "cv1"
+        ]
+      },
+      {
+        "title": "VP LS + HS (NEN 3140 + 3840)",
+        "companyTitle": "",
+        "company": "Aestimavi",
+        "location": "Zwolle, Nederland",
+        "website": "https://aestimavi.com/",
+        "expirationDate": "2027-06-30",
+        "startDate": "2024-03-14",
+        "endDate": "2024-07-01",
+        "type": [
+          "valid",
+          "cv1"
+        ]
+      },
+      {
+        "title": "Gerbeur électrique",
+        "companyTitle": "",
+        "company": "PRAXIS",
+        "location": "Izegem, Belgium",
+        "website": "https://www.praxistraining.be/",
+        "expirationDate": "2029-02-14",
+        "startDate": "",
+        "endDate": "2024-02-14",
+        "type": [
+          "valid",
+          "cv1"
+        ]
+      },
+      {
+        "title": "Slinger Signaller (GWO)",
+        "companyTitle": "",
+        "company": "Normec ISEC",
+        "location": "Beveren, Belgium",
+        "website": "https://normecisec.com/",
+        "expirationDate": "Permanent",
+        "startDate": "2023-09-07",
+        "endDate": "2023-09-08",
+        "type": [
+          "valid",
+          "cv1"
+        ]
+      },
+      {
+        "title": "Technique de base - Mécanique",
+        "companyTitle": "",
+        "company": "RelyOn Nutec",
+        "location": "Amsterdam, Nederland",
+        "website": "https://relyonnutec.com/",
+        "expirationDate": "Permanent",
+        "startDate": "2023-06-19",
+        "endDate": "2023-06-22",
+        "type": [
+          "valid"
+        ]
+      },
+      {
+        "title": "Technique de Base - Hydraulique",
+        "companyTitle": "",
+        "company": "RelyOn Nutec",
+        "location": "Amsterdam, Nederland",
+        "website": "https://relyonnutec.com/",
+        "expirationDate": "Permanent",
+        "startDate": "2023-06-19",
+        "endDate": "2023-06-22",
+        "type": [
+          "duplicate"
+        ]
+      },
+      {
+        "title": "Technique de base - Électricité",
+        "companyTitle": "",
+        "company": "RelyOn Nutec",
+        "location": "Amsterdam, Nederland",
+        "website": "https://relyonnutec.com/",
+        "expirationDate": "Permanent",
+        "startDate": "2023-06-19",
+        "endDate": "2023-06-22",
+        "type": [
+          "duplicate",
+          "cv1"
+        ]
+      },
+      {
+        "title": "VOL-VCA",
+        "companyTitle": "",
+        "company": "PBNA",
+        "location": "Bergen op Zoom, Netherlands",
+        "website": "https://www.pbna.com/",
+        "expirationDate": "2033-05-17",
+        "startDate": "",
+        "endDate": "2023-05-17",
+        "type": [
+          "valid",
+          "cv1"
+        ]
+      },
+      {
+        "title": "BA4",
+        "companyTitle": "",
+        "company": "Vestas",
+        "location": "Arnhem, Netherlands",
+        "website": "https://www.vestas.com/",
+        "expirationDate": "2024-05-12",
+        "startDate": "2023-05-11",
+        "endDate": "2023-05-12",
+        "type": [
+          "duplicate"
+        ]
+      },
+      {
+        "title": "Premiers Secours - Sensibilisation aux Incendies - Travail en Hauteur - Manutention Manuelle (GWO)",
+        "companyTitle": "",
+        "company": "RelyOn Nutec",
+        "location": "Amsterdam, Nederland",
+        "website": "https://relyonnutec.com/",
+        "expirationDate": "2025-05-10",
+        "startDate": "2023-05-08",
+        "endDate": "2023-05-10",
+        "type": [
+          "valid",
+          "cv1"
+        ]
+      },
+      {
+        "title": "BASIS-VCA",
+        "companyTitle": "",
+        "company": "HaCeCo",
+        "location": "Werchter, Belgium",
+        "website": "https://www.haceco.be/",
+        "expirationDate": "2029-09-12",
+        "startDate": "",
+        "endDate": "2019-09-12",
+        "type": [
+          "duplicate"
+        ]
+      },
+      {
+        "title": "Diplôme en conduite de chariots élévateurs électriques, à combustion et à gaz",
+        "companyTitle": "",
+        "company": "Cincork",
+        "location": "Santa Maria de Lamas, Portugal",
+        "website": "https://www.cincork.com/",
+        "expirationDate": "Permanent",
+        "startDate": "2018-03-07",
+        "endDate": "2018-05-03",
+        "type": [
+          "valid"
+        ]
+      },
+      {
+        "title": "Permis de conduire AM / B / B1",
+        "companyTitle": "École de conduite",
+        "company": "Boavista",
+        "location": "Santa Maria da Feira, Portugal",
+        "website": "http://www.ecboavista.com/",
+        "expirationDate": "Permanent",
+        "startDate": "",
+        "endDate": "2015-12-04",
+        "type": [
+          "valid",
+          "cv1"
+        ]
+      }
+    ]
+  },
+  "educations": {
+    "overlayTitle": "Ce que j'ai appris",
+    "underlayTitle": "Éducation",
+    "key": {
+      "changeDiplomas": "Cliquez pour basculer entre Diplômes Valides, Duplicatas et Expirés."
+    },
+    "description": [
+      {
+        "title": "Diplôme en Électronique d'automatisation et de contrôle",
+        "companyTitle": "",
+        "company": "CFPIC",
+        "location": "São João da Madeira, Portugal",
+        "website": "http://www.cfpic.pt/",
+        "expirationDate": "Permanent",
+        "startDate": "2012",
+        "endDate": "2015-01-16",
+        "type": [
+          "valid",
+          "cv1"
+        ]
+      },
+      {
+        "title": "Equivalent du Bac en science et technologies",
+        "companyTitle": "Lycée de",
+        "company": "Santa Maria da Feira",
+        "location": "Santa Maria da Feira, Portugal",
+        "website": "https://ae-smfeira.pt/",
+        "expirationDate": "Permanent",
+        "startDate": "2010",
+        "endDate": "2012",
+        "type": [
+          "duplicate"
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "overlayTitle": "Les langues que je parle",
+    "underlayTitle": "Langues",
+    "key": {
+      "language": "LANGUES",
+      "understanding": "COMPRENDRE",
+      "speaking": "PARLER",
+      "writing": "ECRIRE",
+      "listening": "Écouter",
+      "reading": "Lire",
+      "interaction": "Interaction",
+      "production": "Production",
+      "levels": "Niveau : A1/2: Débutant - B1/2: Intermédiaire - C1/2: Confirmé",
+      "framework": "Cadre européen commun de référence pour les langues"
+    },
+    "description": [
+      {
+        "flag": "en",
+        "listening": "B2",
+        "reading": "B1",
+        "spokenInteraction": "B1",
+        "spokenProduction": "B1",
+        "writing": "B1",
+        "level": "professional"
+      },
+      {
+        "flag": "es",
+        "listening": "B2",
+        "reading": "B1",
+        "spokenInteraction": "B1",
+        "spokenProduction": "B1",
+        "writing": "B1",
+        "level": "professional"
+      },
+      {
+        "flag": "nl",
+        "listening": "A2",
+        "reading": "A2",
+        "spokenInteraction": "A1",
+        "spokenProduction": "A1",
+        "writing": "A1",
+        "level": "conversational"
+      },
+      {
+        "flag": "pt",
+        "listening": "C2",
+        "reading": "C2",
+        "spokenInteraction": "C2",
+        "spokenProduction": "C2",
+        "writing": "C2",
+        "level": "native"
+      }
+    ]
+  },
+  "programmingLanguages": {
+    "overlayTitle": "Ce que je programme",
+    "underlayTitle": "Codes de programmation",
+    "description": [
+      {
+        "title": "Ladder",
+        "img": "lader",
+        "website": "https://ladderlogicworld.com/",
+        "type": [
+          "industrial",
+          "cv1"
+        ]
+      },
+      {
+        "title": "Arduino",
+        "img": "arduino",
+        "website": "https://github.com/rui-oliveira-tech/webSite/",
+        "type": [
+          "industrial"
+        ]
+      },
+      {
+        "title": "C++",
+        "img": "cpp",
+        "website": "https://www.w3schools.com/cpp/",
+        "type": [
+          "programmingLanguages",
+          "cv1"
+        ]
+      },
+      {
+        "title": "Css",
+        "img": "css",
+        "website": "https://www.w3schools.com/css/",
+        "type": [
+          "programmingLanguages"
+        ]
+      },
+      {
+        "title": "Html",
+        "img": "html",
+        "website": "https://www.w3.org/html/",
+        "type": [
+          "programmingLanguages"
+        ]
+      },
+      {
+        "title": "Js",
+        "img": "js",
+        "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/",
+        "type": [
+          "programmingLanguages",
+          "cv1"
+        ]
+      },
+      {
+        "title": "NodeJs",
+        "img": "nodeJs",
+        "website": "https://nodejs.org/",
+        "type": [
+          "programmingLanguages"
+        ]
+      },
+      {
+        "title": "Git",
+        "img": "git",
+        "website": "https://git-scm.com/",
+        "type": [
+          "software"
+        ]
+      },
+      {
+        "title": "Visual Studio Code",
+        "img": "vsc",
+        "website": "https://code.visualstudio.com/",
+        "type": [
+          "software"
+        ]
+      },
+      {
+        "title": "Linux",
+        "img": "linux",
+        "website": "https://www.linux.org/",
+        "type": [
+          "software"
+        ]
+      },
+      {
+        "title": "Windows",
+        "img": "windows",
+        "website": "https://www.microsoft.com/en-gb/windows/",
+        "type": [
+          "software"
+        ]
+      }
+    ]
+  },
+  "experiences": {
+    "overlayTitle": "Ce que j'ai fait",
+    "underlayTitle": "Expérience",
+    "description": [
+      {
+        "title": "Technicien de Service sur le Terrain",
+        "functionsPerformed": {
+          "0": "Mise en service de systèmes électriques industriels.",
+          "1": "Dépannage des installations BT et HT.",
+          "2": "Maintenance préventive et corrective avec inspections.",
+          "3": "Validation des schémas électriques selon sécurité et réglementation."
+        },
+        "company": "ETI Building Technology",
+        "location": "Belgium",
+        "website": "https://www.etivdv.be/",
+        "offerType": "Full-time",
+        "startDate": "2025-06",
+        "endDate": "Present",
+        "type": [
+          "cv1",
+          "cv1-bulletPoints"
+        ]
+      },
+      {
+        "title": "Technicien de Service sur le Terrain",
+        "functionsPerformed": {
+          "0": "Travail électrique et mécanique effectué.",
+          "1": "Dépannage et diagnostic des problèmes techniques.",
+          "2": "Effectuer des inspections de routine et de la maintenance préventive.",
+          "3": "Respecter les protocoles de sécurité et assurer la conformité avec les normes de l'entreprise et de l'industrie."
+        },
+        "company": "VESTAS BELGIUM nv",
+        "location": "Belgium",
+        "website": "https://www.vestas.com/",
+        "offerType": "Full-time",
+        "startDate": "2023-05",
+        "endDate": "2024-12",
+        "type": [
+          "cv1",
+          "cv1-bulletPoints"
+        ]
+      },
+      {
+        "title": "Electricien Industriel",
+        "functionsPerformed": {
+          "0": "Lignes de traitement de verre.",
+          "1": "Dépannage de problèmes de machines électriques et mécaniques.",
+          "2": "PLC + bras robotiques."
+        },
+        "company": "AGP eGlass",
+        "location": "Evergem, Belgium",
+        "website": "https://agpglass.com/",
+        "offerType": "Full-time",
+        "startDate": "2023-03",
+        "endDate": "2023-05",
+        "type": []
+      },
+      {
+        "title": "Electricien Industriel",
+        "functionsPerformed": {
+          "0": "Identifier les problèmes dans la machine.",
+          "1": "Installation de gaines pour câbles, passage de câbles, raccordement de tableaux électriques.",
+          "2": "Mécanique de base."
+        },
+        "company": "SOCEA nv",
+        "location": "Oelegem, Belgium",
+        "website": "https://www.socea.be/",
+        "offerType": "Full-time",
+        "startDate": "2019-05",
+        "endDate": "2023-03",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Technicien de froid",
+        "functionsPerformed": {
+          "0": "Réparation, inspection et maintenance de containers frigorifiques.",
+          "1": "Soudure de cuivre.",
+          "2": "Remplacement de moteurs et de capteurs."
+        },
+        "company": "MEDREPAIR",
+        "location": "Beveren, Belgium",
+        "website": "https://www.msc.com/",
+        "offerType": "Full-time",
+        "startDate": "2018-07",
+        "endDate": "2019-05",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Electricien Industriel",
+        "functionsPerformed": {
+          "0": "Réparation de machines industrielles (électriques et électromécaniques).",
+          "1": "Élaboration et électrification de cadres électriques.",
+          "2": "Montages électriques de machines et structures de transport de liège.",
+          "3": "Débutant en programmation et automatisation d'automates (OMRON)."
+        },
+        "company": "SERSAN",
+        "location": "Lourosa, Portugal",
+        "website": "https://www.sersan.pt/",
+        "offerType": "Full-time",
+        "startDate": "2015-02",
+        "endDate": "2018-07",
+        "type": [
+          "cv1",
+          "cv1-bulletPoints"
+        ]
+      },
+      {
+        "title": "Electronique automatisation et commande (1500 heures)",
+        "functionsPerformed": {
+          "0": "Réparation et maintenance d'électroménagers."
+        },
+        "company": "Electro Oliveira",
+        "location": "Milheirós de Poiares, Portugal",
+        "website": "https://www.sersan.pt/",
+        "offerType": "Internship",
+        "startDate": "2012",
+        "endDate": "2015",
+        "type": [
+          "cv1"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "overlayTitle": "Ce que j'ai développé",
+    "underlayTitle": "Projets",
+    "description": [
+      {
+        "title": "Home Assistant",
+        "description": "Cette configuration Home Assistant est un système complet de gestion d'énergie et d'automatisation domestique intégrant un onduleur solaire Huawei, un compteur d'énergie, une batterie, une chaudière et une pompe à eau de puits. Le système surveille, contrôle et publie les données des principaux capteurs tout en automatisant l'utilisation de l'énergie pour plus d'efficacité et de sécurité.",
+        "gitRepository": "homeAssistant",
+        "startDate": "2021-02-07",
+        "endDate": "Present",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "title": "Website",
+        "description": "Le but de ce site web est de présenter ma carrière professionnelle et de rendre les informations facilement accessibles aux entreprises et aux particuliers qui souhaitent en savoir plus sur moi.",
+        "gitRepository": "webSite",
+        "startDate": "2022-02-11",
+        "endDate": "Present",
+        "type": [
+          "cv1"
+        ]
+      }
+    ]
+  },
+  "other": {
+    "overlayTitle": "Les autres choses que j'ai fait",
+    "underlayTitle": "Autres choses",
+    "description": [
+      {
+        "id": 2,
+        "title": "Off We Go – IB&C WEEKS",
+        "description": "Expérience d'échange académique.",
+        "startDate": "2014-05-17",
+        "endDate": "2014-05-25",
+        "type": [
+          "cv1"
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Voyage en Europe",
+        "description": "Les pays que j'ai visités.",
+        "startDate": "2021-02-07",
+        "endDate": "Present",
+        "type": [
+          "cv1"
+        ]
+      }
+    ]
+  },
+  "googleMapsMarkers": {
+    "overlayTitle": "Où j'ai été",
+    "underlayTitle": "Points sur Google Maps",
+    "description": []
+  },
+  "vcard": {
+    "redirectMessage": "Vous serez redirigé sous peu.",
+    "redirectCountdownTitle": "Redirection dans",
+    "redirectCountdownUnit": "secondes",
+    "downloadPrompt": "Télécharger la Vcard",
+    "error": "Erreur",
+    "errorMessage": "Veuillez réessayer plus tard."
+  },
+  "expressions": {
+    "globals": {
+      "sex": "Sexe",
+      "dateOfBirth": "Date de naissance",
+      "nationality": "Nationalité",
+      "page": "Page"
+    },
+    "prepositions": {
+      "in": "à"
+    },
+    "offerType": {
+      "Full-time": "Temps plein",
+      "Internship": "Stage",
+      "permanent": "Permanent",
+      "valid": "Valide jusqu'au",
+      "expired": "Expiré le",
+      "validDiploma": "Diplôme Valide",
+      "expiredDiploma": "Diplôme Expiré",
+      "duplicateDiploma": "Diplôme Duplicata"
+    },
+    "places": {
+      "antwerp": "Anvers",
+      "brech": "Brecht"
+    },
+    "countries": {
+      "NL": "Pays-Bas",
+      "BE": "Belgique",
+      "PT": "Portugal",
+      "D": "Allemagne"
+    },
+    "languages": {
+      "pt": "Portuguais",
+      "fr": "Français",
+      "en": "Anglais",
+      "es": "Espagnol",
+      "nl": "Holandais"
+    },
+    "languagesLevels": {
+      "native": "Natif",
+      "professional": "Professionnel",
+      "conversational": "Conversationnel"
+    },
+    "months": {
+      "1": "Janv",
+      "2": "Févr",
+      "3": "Mars",
+      "4": "Avril",
+      "5": "Mai",
+      "6": "Juin",
+      "7": "Juil",
+      "8": "Août",
+      "9": "Sept",
+      "10": "Oct",
+      "11": "Nov",
+      "12": "Déc",
+      "present": "Présent"
+    }
+  }
+}
