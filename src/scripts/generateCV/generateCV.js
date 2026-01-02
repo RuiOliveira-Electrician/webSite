@@ -1,11 +1,11 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
-import deepMerge from '../../utils/deepMerge.js';
+import { fileURLToPath } from 'url';
 import { pdfTemplate, headerTemplate, footerTemplate } from './documents/newCv/index.js';
 import { defaultLanguage, supportedTranledLngs } from '../../i18n/langs.js';
 import { links } from '../../resource/links.js';
-import { fileURLToPath } from 'url';
+import deepMerge from '../../utils/deepMerge.js';
 
 
 const __filename = fileURLToPath(import.meta.url);
