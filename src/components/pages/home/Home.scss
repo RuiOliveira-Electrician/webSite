@@ -127,7 +127,7 @@
       font-size: clamp(0.4rem + 1vh, 0.1vh + 0.5rem, 7rem);
     }
   }
-}
+
 
 @media (orientation: landscape) {
   h1 {
@@ -141,7 +141,7 @@
     font-size: clamp(0.9rem, 3vh, 3rem);
   }
 }
-
+}
 @keyframes showHomeTitleEffect {
   0% {
     width: 70%;
