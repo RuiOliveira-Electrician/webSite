@@ -53,7 +53,7 @@ export default function VcardPage({
     };
 
     generateVCard();
-  }, [vcardSuffix]);
+  }, [vcardSuffix, filename]);
 
   useEffect(() => {
     const countdown = setInterval(() => setTimer((prev) => prev - 1), 1000);
