@@ -123,6 +123,20 @@
     },
     "description": [
       {
+        "title": "BA4 / BA5",
+        "downloadTitle": "BA4 / BA5 - ETI",
+        "companyTitle": "",
+        "company": "ETI",
+        "location": "borgerhout, Belgium",
+        "website": "https://www.etivdv.be/",
+        "expirationDate": "2031-05-12",
+        "startDate": "2026-05-11",
+        "endDate": "2031-05-12",
+        "type": [
+          "valid"
+        ]
+      },
+      {
         "title": "IS-005 - Travail avec une nacelle mobile",
         "downloadTitle": "IS-005 - Working with a mobile boom lift - FURBO",
         "companyTitle": "",
@@ -139,7 +153,7 @@
       },
       {
         "title": "VP LS + HS (NEN 3140 + 3840)",
-        "downloadTitle": "VP LS + HS (NEN 3140 + 3840) - Aestimavi",
+        "downloadTitle": "VP.LS+HS(NEN3140+3840)-Aestimavi",
         "companyTitle": "",
         "company": "Aestimavi",
         "location": "Zwolle, Nederland",
@@ -154,7 +168,7 @@
       },
       {
         "title": "Gerbeur électrique",
-        "downloadTitle": "Electric Stacker - PRAXIS",
+        "downloadTitle": "ElectricStacker-PRAXIS",
         "companyTitle": "",
         "company": "PRAXIS",
         "location": "Izegem, Belgium",
@@ -227,7 +241,7 @@
       },
       {
         "title": "VOL-VCA",
-        "downloadTitle": "VOL-VCA - PBNA",
+        "downloadTitle": "VOL.VCA-PBNA",
         "companyTitle": "",
         "company": "PBNA",
         "location": "Bergen op Zoom, Netherlands",
@@ -242,7 +256,7 @@
       },
       {
         "title": "BA4",
-        "downloadTitle": "BA4 - Vestas",
+        "downloadTitle": "BA4-Vestas",
         "companyTitle": "",
         "company": "Vestas",
         "location": "Arnhem, Netherlands",
@@ -256,7 +270,7 @@
       },
       {
         "title": "Premiers Secours - Sensibilisation aux Incendies - Travail en Hauteur - Manutention Manuelle (GWO)",
-        "downloadTitle": "GWO Training - First Aid Fire Awareness Heights Manual Handling - RelyOn Nutec",
+        "downloadTitle": "GWOTraining-FirstAidFireAwarenessHeightsManualHandling-RelyOnNutec",
         "companyTitle": "",
         "company": "RelyOn Nutec",
         "location": "Amsterdam, Nederland",
@@ -271,7 +285,7 @@
       },
       {
         "title": "BASIS-VCA",
-        "downloadTitle": "BASIS-VCA - HaCeCo",
+        "downloadTitle": "BASIS.VCA-HaCeCo",
         "companyTitle": "",
         "company": "HaCeCo",
         "location": "Werchter, Belgium",
