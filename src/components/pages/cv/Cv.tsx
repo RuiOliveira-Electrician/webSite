@@ -28,7 +28,7 @@ export function Cv({ locale }: { locale: string }) {
         <CvDownload locale={locale} />
         <div className="cvContainer">
           <About gradient={gradient} />
-          <Certification gradient={gradient} />
+          <Certification gradient={gradient} locale={locale} />
           <Education gradient={gradient} />
           <Languages gradient={gradient} />
           <ProgrammingLanguages gradient={gradient} />

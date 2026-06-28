@@ -1,4 +1,22 @@
 .cv {
+  .certification-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .download-icon-btn {
+    color: inherit;
+    opacity: 0.7;
+    transition: opacity 0.2s, transform 0.2s;
+
+    &:hover {
+      opacity: 1;
+      transform: translateY(1px); /* Slight interactive nudge on hover */
+    }
+  }
+
   .download {
     position: fixed;
     width: auto;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import getFormatDate, {
   formatDate,
@@ -8,17 +8,21 @@ import getFormatDate, {
 import certificationImg from "@/assets/images/cv/certification.jpg";
 import { IExpressions } from "@/models/IExpressions";
 import { ICertification } from "@/models/IMessages";
+import download, { isFileAvailable } from "@/utils/download";
 
 import "./Cv.scss";
 
 interface ICertificationProps {
   gradient: string;
+  locale: string;
 }
 
 export default function Certification(props: ICertificationProps) {
   const t = useTranslations("");
   const expressions = t.raw("expressions") as IExpressions;
-  const certifications = t.raw("certifications.description") as ICertification[];
+  const certifications = t.raw(
+    "certifications.description"
+  ) as ICertification[];
 
   const [showDiplomType, setShowDiplomType] = useState<
     "validDiplom" | "duplicateDiplom" | "expiredDiplom"
@@ -28,16 +32,35 @@ export default function Certification(props: ICertificationProps) {
     setShowDiplomType((prev) => {
       switch (prev) {
         case "validDiplom":
-          return "duplicateDiplom"; // Next state after valid
+          return "duplicateDiplom";
         case "duplicateDiplom":
-          return "expiredDiplom"; // Next state after duplicate
+          return "expiredDiplom";
         case "expiredDiplom":
-          return "validDiplom"; // Cycle back to valid
+          return "validDiplom";
         default:
-          return "validDiplom"; // Fallback case (shouldn't happen)
+          return "validDiplom";
       }
     });
   };
+
+  const [availableFiles, setAvailableFiles] = useState<Record<string, boolean>>(
+    {}
+  );
+
+  useEffect(() => {
+    certifications.forEach((certification) => {
+      isFileAvailable(
+        props.locale,
+        "CERTIFICATE",
+        certification.downloadTitle
+      ).then((exists) => {
+        setAvailableFiles((prev) => ({
+          ...prev,
+          [certification.downloadTitle]: exists,
+        }));
+      });
+    });
+  }, [certifications, props.locale]);
 
   return (
     <div
@@ -67,13 +90,13 @@ export default function Certification(props: ICertificationProps) {
         </button>
         <p className="text small">{t("certifications.key.changeDiplomas")}</p>
         {certifications.length > 0 ? (
-          certifications.map((education, i) => {
-            const isPermanent = education.expirationDate === "Permanent";
+          certifications.map((certification, i) => {
+            const isPermanent = certification.expirationDate === "Permanent";
             const isExpired =
-              !isPermanent && isExpirationDatePassed(education.expirationDate);
-            const isDuplicate = education.type.includes("duplicate");
+              !isPermanent &&
+              isExpirationDatePassed(certification.expirationDate);
+            const isDuplicate = certification.type.includes("duplicate");
 
-            // Adjusted filtering logic
             const shouldShow =
               (showDiplomType === "validDiplom" &&
                 !isExpired &&
@@ -85,31 +108,82 @@ export default function Certification(props: ICertificationProps) {
 
             if (shouldShow) {
               const title = isExpired
-                ? `${education.title} (${
+                ? `${certification.title} (${
                     expressions.offerTypes.expired
-                  } ${formatDate(education.endDate, expressions)})`
-                : `${education.title} (${
+                  } ${formatDate(certification.endDate, expressions)})`
+                : `${certification.title} (${
                     isPermanent
                       ? expressions.offerTypes.permanent
-                      : `${expressions.offerTypes.valid} ${education.expirationDate}`
+                      : `${expressions.offerTypes.valid} ${certification.expirationDate}`
                   })`;
 
               return (
                 <React.Fragment key={i}>
-                  <p className="light big subTitle">{title}</p>
-                  <a
-                    className="textGlue medium"
-                    target="_blank"
-                    rel="noreferrer"
-                    href={education.website}
-                    aria-label={`Visit ${education.companyTitle} website`}
+                  <div
+                    className="certification-item"
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      marginBottom: "1rem",
+                      width: "100%",
+                    }}
                   >
-                    {education.companyTitle} {education.company}{" "}
-                    {expressions.prepositions.in} {education.location}
-                  </a>
-                  <p className="text small">
-                    {getFormatDate(education, expressions)}
-                  </p>
+                    <div className="certification-info">
+                      <p className="light big subTitle">{title}</p>
+                      <a
+                        className="textGlue medium"
+                        target="_blank"
+                        rel="noreferrer"
+                        href={certification.website}
+                        aria-label={`Visit ${certification.companyTitle} website`}
+                      >
+                        {certification.companyTitle} {certification.company}{" "}
+                        {expressions.prepositions.in} {certification.location}
+                      </a>
+                      <p className="text small">
+                        {getFormatDate(certification, expressions)}
+                      </p>
+                    </div>
+
+                    {/* Download Icon Button stays perfectly on the right */}
+              {/*       {availableFiles[certification.downloadTitle] && (
+                      <button
+                        onClick={download(
+                          props.locale,
+                          "CERTIFICATE",
+                          certification.downloadTitle
+                        )}
+                        className="download-icon-btn"
+                        aria-label="Download certificate"
+                        style={{
+                          marginLeft: "15px",
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          textDecoration: "none",
+                          background: "none",
+                          border: "none",
+                          cursor: "pointer",
+                        }}
+                      >
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                          <polyline points="7 10 12 15 17 10" />
+                          <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                      </button> 
+                    )}*/}
+                  </div>
                 </React.Fragment>
               );
             }

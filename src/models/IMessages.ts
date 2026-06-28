@@ -1,6 +1,7 @@
 
 export interface ICertification {
     title: string;
+    downloadTitle: string;
     companyTitle: string;
     company: string;
     location: string;
