@@ -124,6 +124,7 @@
     "description": [
       {
         "title": "IS-005 - Travail avec une nacelle mobile",
+        "downloadTitle": "IS-005 - Working with a mobile boom lift - FURBO",
         "companyTitle": "",
         "company": "FURBO",
         "location": "Antwerp, Belgium",
@@ -138,6 +139,7 @@
       },
       {
         "title": "VP LS + HS (NEN 3140 + 3840)",
+        "downloadTitle": "VP LS + HS (NEN 3140 + 3840) - Aestimavi",
         "companyTitle": "",
         "company": "Aestimavi",
         "location": "Zwolle, Nederland",
@@ -152,6 +154,7 @@
       },
       {
         "title": "Gerbeur électrique",
+        "downloadTitle": "Electric Stacker - PRAXIS",
         "companyTitle": "",
         "company": "PRAXIS",
         "location": "Izegem, Belgium",
@@ -166,6 +169,7 @@
       },
       {
         "title": "Slinger Signaller (GWO)",
+        "downloadTitle": "WINDA",
         "companyTitle": "",
         "company": "Normec ISEC",
         "location": "Beveren, Belgium",
@@ -180,6 +184,7 @@
       },
       {
         "title": "Technique de base - Mécanique",
+        "downloadTitle": "WINDA",
         "companyTitle": "",
         "company": "RelyOn Nutec",
         "location": "Amsterdam, Nederland",
@@ -193,6 +198,7 @@
       },
       {
         "title": "Technique de Base - Hydraulique",
+        "downloadTitle": "WINDA",
         "companyTitle": "",
         "company": "RelyOn Nutec",
         "location": "Amsterdam, Nederland",
@@ -206,6 +212,7 @@
       },
       {
         "title": "Technique de base - Électricité",
+        "downloadTitle": "WINDA",
         "companyTitle": "",
         "company": "RelyOn Nutec",
         "location": "Amsterdam, Nederland",
@@ -220,6 +227,7 @@
       },
       {
         "title": "VOL-VCA",
+        "downloadTitle": "VOL-VCA - PBNA",
         "companyTitle": "",
         "company": "PBNA",
         "location": "Bergen op Zoom, Netherlands",
@@ -234,6 +242,7 @@
       },
       {
         "title": "BA4",
+        "downloadTitle": "BA4 - Vestas",
         "companyTitle": "",
         "company": "Vestas",
         "location": "Arnhem, Netherlands",
@@ -247,6 +256,7 @@
       },
       {
         "title": "Premiers Secours - Sensibilisation aux Incendies - Travail en Hauteur - Manutention Manuelle (GWO)",
+        "downloadTitle": "GWO Training - First Aid Fire Awareness Heights Manual Handling - RelyOn Nutec",
         "companyTitle": "",
         "company": "RelyOn Nutec",
         "location": "Amsterdam, Nederland",
@@ -261,6 +271,7 @@
       },
       {
         "title": "BASIS-VCA",
+        "downloadTitle": "BASIS-VCA - HaCeCo",
         "companyTitle": "",
         "company": "HaCeCo",
         "location": "Werchter, Belgium",
@@ -274,6 +285,7 @@
       },
       {
         "title": "Diplôme en conduite de chariots élévateurs électriques, à combustion et à gaz",
+        "downloadTitle": "Forklift Driving Course (Electric, Combustion, Gas) - Cincork",
         "companyTitle": "",
         "company": "Cincork",
         "location": "Santa Maria de Lamas, Portugal",

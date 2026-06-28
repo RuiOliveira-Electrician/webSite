@@ -2,11 +2,31 @@
     "description": [
         {
             "title": {
+                "en": "BA4 / BA5",
+                "fr": "BA4 / BA5",
+                "pt": "BA4 / BA5",
+                "nl": "BA4 / BA5"
+            },
+            "downloadTitle": "BA4 / BA5 - ETI",
+            "companyTitle": "",
+            "company": "ETI",
+            "location": "borgerhout, Belgium",
+            "website": "https://www.etivdv.be/",
+            "expirationDate": "2031-05-12",
+            "startDate": "2026-05-11",
+            "endDate": "2031-05-12",
+            "type": [
+                "valid"
+            ]
+        },
+        {
+            "title": {
                 "en": "IS-005 - Working with a mobile boom lift",
                 "fr": "IS-005 - Travail avec une nacelle mobile",
                 "pt": "IS-005 - Trabalhar com plataforma elevatória autopropulsada",
                 "nl": "IS-005 - Werken met zelfrijdende hoogwerker"
             },
+            "downloadTitle": "IS-005 - Working with a mobile boom lift - FURBO",
             "companyTitle": "",
             "company": "FURBO",
             "location": "Antwerp, Belgium",
@@ -26,6 +46,7 @@
                 "pt": "VP LS + HS (NEN 3140 + 3840)",
                 "nl": "VP LS + HS (NEN 3140 + 3840)"
             },
+            "downloadTitle": "VP LS + HS (NEN 3140 + 3840) - Aestimavi",
             "companyTitle": "",
             "company": "Aestimavi",
             "location": "Zwolle, Nederland",
@@ -45,6 +66,7 @@
                 "pt": "Porta-Palete Elétrico",
                 "nl": "Electric Stacker"
             },
+            "downloadTitle": "Electric Stacker - PRAXIS",
             "companyTitle": "",
             "company": "PRAXIS",
             "location": "Izegem, Belgium",
@@ -64,6 +86,7 @@
                 "pt": "Slinger Signaller (GWO)",
                 "nl": "Slinger Signaller (GWO)"
             },
+            "downloadTitle": "WINDA",
             "companyTitle": "",
             "company": "Normec ISEC",
             "location": "Beveren, Belgium",
@@ -83,6 +106,7 @@
                 "pt": "Técnico Básico - Mecânica",
                 "nl": "Basis Technisch - Mechanisch"
             },
+            "downloadTitle": "WINDA",
             "companyTitle": "",
             "company": "RelyOn Nutec",
             "location": "Amsterdam, Nederland",
@@ -101,6 +125,7 @@
                 "pt": "Técnico Básico - Hidráulica",
                 "nl": "Basis technisch - hydraulisch"
             },
+            "downloadTitle": "WINDA",
             "companyTitle": "",
             "company": "RelyOn Nutec",
             "location": "Amsterdam, Nederland",
@@ -119,6 +144,7 @@
                 "pt": "Técnico Básico - Elétrica",
                 "nl": "Basis technisch - elektrisch"
             },
+            "downloadTitle": "WINDA",
             "companyTitle": "",
             "company": "RelyOn Nutec",
             "location": "Amsterdam, Nederland",
@@ -138,6 +164,7 @@
                 "pt": "VOL-VCA",
                 "nl": "VOL-VCA"
             },
+            "downloadTitle": "VOL-VCA - PBNA",
             "companyTitle": "",
             "company": "PBNA",
             "location": "Bergen op Zoom, Netherlands",
@@ -157,6 +184,7 @@
                 "pt": "BA4",
                 "nl": "BA4"
             },
+            "downloadTitle": "BA4 - Vestas",
             "companyTitle": "",
             "company": "Vestas",
             "location": "Arnhem, Netherlands",
@@ -175,6 +203,7 @@
                 "pt": "Primeiros Socorros - Conscientização sobre Incêndios - Trabalho em Alturas - Manuseio Manual (GWO)",
                 "nl": "EHBO - Brandbewustzijn - Werken op Hoogte - Handmatig Hanteren (GWO)"
             },
+            "downloadTitle": "GWO Training - First Aid Fire Awareness Heights Manual Handling - RelyOn Nutec",
             "companyTitle": "",
             "company": "RelyOn Nutec",
             "location": "Amsterdam, Nederland",
@@ -194,6 +223,7 @@
                 "pt": "BASIS-VCA",
                 "nl": "BASIS-VCA"
             },
+            "downloadTitle": "BASIS-VCA - HaCeCo",
             "companyTitle": "",
             "company": "HaCeCo",
             "location": "Werchter, Belgium",
@@ -212,6 +242,7 @@
                 "pt": "Curso de condução de empilhadores elétricos, combustão e gás",
                 "nl": "Rijopleiding elektrische heftrucks, verbranding en gas"
             },
+            "downloadTitle": "Forklift Driving Course (Electric, Combustion, Gas) - Cincork",
             "companyTitle": "",
             "company": "Cincork",
             "location": "Santa Maria de Lamas, Portugal",
