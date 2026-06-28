@@ -128,7 +128,8 @@
     }
   }
 
-  @media (orientation: landscape) {
+  @media (orientation: landscape) and (min-height: 500px),
+    (orientation: landscape) and (max-height: 500px) {
     h1 {
       transform: translate(-42%, -36%);
       margin: 2em 0 0 clamp(1%, 2.5vh, 10%);
@@ -141,6 +142,7 @@
     }
   }
 }
+
 @keyframes showHomeTitleEffect {
   0% {
     width: 70%;
