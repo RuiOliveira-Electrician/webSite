@@ -128,19 +128,18 @@
     }
   }
 
+  @media (orientation: landscape) {
+    h1 {
+      transform: translate(-42%, -36%);
+      margin: 2em 0 0 clamp(1%, 2.5vh, 10%);
+      font-size: clamp(1rem, 5.5vh, 5rem);
+      padding: clamp(10px, 1.5vh, 25px) clamp(12px, 2.5vh, 25px);
+    }
 
-@media (orientation: landscape) {
-  h1 {
-    transform: translate(-42%, -36%);
-    margin: 2em 0 0 clamp(1%, 2.5vh, 10%);
-    font-size: clamp(1rem, 5.5vh, 5rem);
-    padding: clamp(10px, 1.5vh, 25px) clamp(12px, 2.5vh, 25px);
+    .subTitle {
+      font-size: clamp(0.9rem, 3vh, 3rem);
+    }
   }
-
-  .subTitle {
-    font-size: clamp(0.9rem, 3vh, 3rem);
-  }
-}
 }
 @keyframes showHomeTitleEffect {
   0% {
