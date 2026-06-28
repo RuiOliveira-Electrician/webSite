@@ -146,8 +146,7 @@ export default function Certification(props: ICertificationProps) {
                       </p>
                     </div>
 
-                    {/* Download Icon Button stays perfectly on the right */}
-              {/*       {availableFiles[certification.downloadTitle] && (
+                    {availableFiles[certification.downloadTitle] && (
                       <button
                         onClick={download(
                           props.locale,
@@ -181,8 +180,8 @@ export default function Certification(props: ICertificationProps) {
                           <polyline points="7 10 12 15 17 10" />
                           <line x1="12" y1="15" x2="12" y2="3" />
                         </svg>
-                      </button> 
-                    )}*/}
+                      </button>
+                    )}
                   </div>
                 </React.Fragment>
               );
